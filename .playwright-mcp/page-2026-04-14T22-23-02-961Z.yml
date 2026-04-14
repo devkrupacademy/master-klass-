@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Академія продажів Андрія Крупкіна" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Академія продажів Андрія Крупкіна" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]: 2 дні
+        - generic [ref=e12]: 21–22 квітня
+        - generic [ref=e14]: о 19:00
+      - link "прийняти участь безкоштовно" [ref=e15] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e16]: прийняти участь безкоштовно
+    - generic [ref=e18]:
+      - img "Андрій Крупкін" [ref=e20]
+      - generic [ref=e21]: Майстермайнд Андрія Крупкіна
+      - heading "Як зробити х2 у продажах у 2026 році з сильною командою продажів" [level=1] [ref=e22]:
+        - text: Як зробити
+        - generic [ref=e23]: х2 у продажах у 2026 році
+        - generic [ref=e24]: з сильною командою продажів
+      - paragraph [ref=e25]: За 2 вечора розберемо ТОП-5 проблем вашого відділу продажу та систему, яка працює без вашого контролю
+      - generic [ref=e29]: Зрозумієш де саме твоя команда зливає угоди Без найму нових людей і нових витрат на рекламу Перші зміни вже за 2 тижні
+      - generic [ref=e32]: Реєструйся протягом 15:00 подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
+      - link "зареєструватись" [ref=e33] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e34]: зареєструватись
+      - generic [ref=e35]: Участь безкоштовна · Zoom-формат · Кількість обмежена
+    - generic [ref=e37]:
+      - heading "Цей мастермайнд для тебе, якщо:" [level=2] [ref=e38]
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - generic [ref=e41]: У вас є відділ продажів, але менеджери закривають слабше, ніж могли б
+        - listitem [ref=e42]:
+          - generic [ref=e43]: Частина заявок зливається ще до оплати — і ти не розумієш, де саме
+        - listitem [ref=e44]:
+          - generic [ref=e45]: Плануєш х2 по виручці у 2026, але не впевнений, що поточна команда витягне
+        - listitem [ref=e46]:
+          - generic [ref=e47]: Хочеш побудувати систему, яка продає без твоєї постійної участі
+        - listitem [ref=e48]:
+          - generic [ref=e49]: Нові менеджери губляться у перші тижні й не доходять до KPI
+        - listitem [ref=e50]:
+          - generic [ref=e51]: Розумієш, що тренінгами вже не вирішити — потрібна структура
+    - generic [ref=e56]:
+      - paragraph [ref=e57]: Методологія
+      - paragraph [ref=e58]: Я покажу тобі протестовану методологію, яка допомагає будувати ефективні відділи з продажів та команди, яка драйвить продажі.
+    - generic [ref=e60]:
+      - heading "Програма мастермайнду" [level=2] [ref=e61]
+      - generic [ref=e62]:
+        - article [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: +21%
+            - generic [ref=e66]: ↗ ріст
+          - generic [ref=e67]:
+            - heading "Як збільшити продажі вдвічі у 2026" [level=3] [ref=e68]
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - generic [ref=e71]: Як порахувати в цифрах скільки грошей твій відділ зливає щотижня
+              - listitem [ref=e72]:
+                - generic [ref=e73]: В чому головна задача відділу продажів і чому більшість власників це розуміють неправильно
+              - listitem [ref=e74]:
+                - generic [ref=e75]: ТОП-5 найчастіших проблем команди і як їх виправити
+              - listitem [ref=e76]:
+                - generic [ref=e77]: Як автоматизувати контроль дзвінків, аналіз менеджерів і супровід клієнтів з впровадженням ШІ
+              - listitem [ref=e78]:
+                - generic [ref=e79]: Як впровадити зміни так, щоб команда прийняла, а не саботувала
+              - listitem [ref=e80]:
+                - generic [ref=e81]: Відповіді на питання + бонуси для всіх учасників
+        - article [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: +34%
+            - generic [ref=e85]: ↗ ріст
+          - generic [ref=e86]:
+            - heading "Живі розбори дзвінків і кейсів" [level=3] [ref=e87]
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - generic [ref=e90]: Розбори реальних дзвінків — де саме менеджери зливають угоди і як це виправити
+              - listitem [ref=e91]:
+                - generic [ref=e92]: Можна буде надіслати свій кейс заздалегідь
+        - article [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: тест
+            - generic [ref=e96]: ↗ ріст
+          - generic [ref=e97]:
+            - heading "Тест «Аудит відділу продажів»" [level=3] [ref=e98]
+            - list [ref=e99]:
+              - listitem [ref=e100]:
+                - generic [ref=e101]: Побачиш де саме твій відділ зараз втрачає гроші
+              - listitem [ref=e102]:
+                - generic [ref=e103]: Індивідуальні рекомендації по твоїй ніші
+    - generic [ref=e105]:
+      - heading "Результати пiсля мастермайнду" [level=2] [ref=e106]
+      - generic [ref=e107]:
+        - img "Андрій Крупкін" [ref=e109]
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Андрій
+            - generic [ref=e113]: Крупкін
+          - paragraph [ref=e114]: Андрій Крупкін — практик, який сам продає, а не просто вчить. Пройшов шлях від менеджера до засновника декількох компаній.
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: 18+
+              - generic [ref=e118]: років у сфері продажів
+            - generic [ref=e119]:
+              - generic [ref=e120]: 184+
+              - generic [ref=e121]: побудованих відділів продажів
+          - paragraph [ref=e122]: "Засновник компаній:"
+    - heading "Я витратив на ці знання 18 років та 100+ тисяч доларів" [level=2] [ref=e125]
+    - generic [ref=e142]:
+      - heading "Відгуки з навчань" [level=2] [ref=e143]
+      - article [ref=e144]:
+        - generic [ref=e147]: ПБ
+        - generic [ref=e148]:
+          - paragraph [ref=e149]: Учасник курсу
+          - generic [ref=e150]: Петро Бойчук
+          - blockquote [ref=e151]: «Це курс не про те, як продавати, а як зростати та розвиватися в професії менеджер з продажів, щоб бути кращим. Цей курс — це фундамент кожного менеджера з продажів, щоб було розуміння, хто я та куди маю зростати.»
+    - generic [ref=e153]:
+      - heading "Такий живий формат проводимо раз на кiлька мiсяцiв" [level=2] [ref=e154]
+      - paragraph [ref=e155]: Цієї весни підприємці оновлюють свої відділи продажів. Приєднуйся.
+      - link "Зареєструватись" [ref=e157] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - text: Академія продажів
+          - text: Андрія Крупкіна
+        - generic [ref=e161]:
+          - link "0 800 209 871" [ref=e162] [cursor=pointer]:
+            - /url: tel:+380800209871
+          - generic [ref=e163]: ·
+          - generic [ref=e164]: Безкоштовно по Україні
+        - generic [ref=e165]:
+          - link "YouTube" [ref=e166] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=e167] [cursor=pointer]:
+            - /url: "#"
+          - link "Політика" [ref=e168] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e169]: © 2026 Академія продажів Андрія Крупкіна
+  - button "Open Next.js Dev Tools" [ref=e175] [cursor=pointer]:
+    - img [ref=e176]
+  - alert [ref=e179]
