@@ -6,6 +6,7 @@ import { Reveal } from '@/components/Reveal';
 import { Countdown } from '@/components/Countdown';
 import { ParallaxImage } from '@/components/ui/ParallaxImage';
 import { MagneticCTA } from '@/components/ui/MagneticCTA';
+import { TestimonialsSlider } from '@/components/sections/TestimonialsSlider';
 
 // ─── Real copy extracted from Figma node 1:1723 ───
 const FOR_WHOM_LEFT = [
@@ -1183,27 +1184,7 @@ function TestimonialMobile() {
         Відгуки з навчань
       </h2>
 
-      <div className="mt-6 flex flex-col gap-4">
-        {TESTIMONIALS.map((t) => (
-          <article
-            key={t.name}
-            style={{ background: '#11121A', borderRadius: 20, padding: 18, border: '1px solid rgba(235,255,0,0.25)' }}
-          >
-            <div
-              className="font-display uppercase text-acid"
-              style={{ fontSize: 22, lineHeight: '24px' }}
-            >
-              {t.name}
-            </div>
-            <blockquote
-              className="font-sans mt-3"
-              style={{ fontSize: 14, lineHeight: '20px', color: 'rgba(250,248,245,0.85)', whiteSpace: 'pre-line' }}
-            >
-              {t.text}
-            </blockquote>
-          </article>
-        ))}
-      </div>
+      <TestimonialsSlider items={TESTIMONIALS} variant="mobile" />
     </section>
   );
 }
@@ -1216,32 +1197,7 @@ function TestimonialSection() {
           Відгуки з навчань
         </h2>
 
-        <div className="mx-auto grid grid-cols-2 gap-6" style={{ maxWidth: 1299 }}>
-          {TESTIMONIALS.map((t) => (
-            <article
-              key={t.name}
-              style={{
-                background: '#11121A',
-                borderRadius: 28,
-                padding: 32,
-                border: '1px solid rgba(235,255,0,0.25)',
-              }}
-            >
-              <div
-                className="font-display uppercase text-acid"
-                style={{ fontSize: 34, lineHeight: '36px' }}
-              >
-                {t.name}
-              </div>
-              <blockquote
-                className="font-sans mt-5"
-                style={{ fontSize: 17, lineHeight: '24px', color: 'rgba(250,248,245,0.85)', whiteSpace: 'pre-line' }}
-              >
-                {t.text}
-              </blockquote>
-            </article>
-          ))}
-        </div>
+        <TestimonialsSlider items={TESTIMONIALS} variant="desktop" />
       </div>
     </section>
   );

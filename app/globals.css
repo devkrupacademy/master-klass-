@@ -17,6 +17,7 @@ body {
   background: #000;
   color: #fff;
 }
+html, body { overflow-x: hidden; }
 
 /* ── Hero entry animation (runs on load) ───────────────────────── */
 @keyframes hero-in {
