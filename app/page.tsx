@@ -329,8 +329,7 @@ function Hero() {
             borderRadius: 100,
             background:
               'linear-gradient(180deg, #F4FF4A 0%, #EBFF00 50%, #C9DB00 100%)',
-            border: '1px solid #EBFF00',
-            boxShadow: '0 0 60px rgba(235,255,0,0.35)',
+            boxShadow: '0 4px 50px #EBFF00, inset 0 0 0 1px #EBFF00',
           }}
         >
           <span
@@ -1436,8 +1435,7 @@ function SecondCtaSection() {
             height: 126,
             borderRadius: 100,
             background: 'linear-gradient(180deg, #F4FF4A 0%, #EBFF00 50%, #C9DB00 100%)',
-            border: '1px solid #EBFF00',
-            boxShadow: '0 0 60px rgba(235,255,0,0.35)',
+            boxShadow: '0 4px 50px #EBFF00, inset 0 0 0 1px #EBFF00',
           }}
         >
           <span className="font-display uppercase text-black" style={{ fontSize: 60, lineHeight: 1 }}>
