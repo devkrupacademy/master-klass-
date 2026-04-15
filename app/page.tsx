@@ -956,16 +956,19 @@ function AndriyStats() {
       <div className="relative mx-auto" style={{ width: 1920, height: 1087, maxWidth: '100%' }}>
         {/* Inner absolute layer aligned to Figma x=303 */}
         <div className="absolute" style={{ left: SECTION_LEFT, top: 0, width: 1309, height: 1087 }}>
-          {/* Lime glow (large horizontal oval behind portrait) */}
+          {/* Background pattern (same as hero) */}
           <div
             className="absolute pointer-events-none"
-            style={{ left: 57, top: -127, width: 1424, height: 539, borderRadius: '50%', background: '#EBFF00', filter: 'blur(150px)', opacity: 0.35 }}
-          />
-          {/* White glow (soft left) */}
-          <div
-            className="absolute pointer-events-none"
-            style={{ left: -326, top: -176, width: 981, height: 544, borderRadius: '50%', background: '#ffffff', filter: 'blur(150px)', opacity: 0.12 }}
-          />
+            style={{ left: 0, top: 0, width: 1309, height: 869, zIndex: 0 }}
+          >
+            <Image
+              src="/images/hero-bg-pattern.png"
+              alt=""
+              fill
+              sizes="1309px"
+              className="object-cover"
+            />
+          </div>
 
           {/* Portrait */}
           <div className="absolute" style={{ left: -35, top: 75, width: 624, height: 740 }}>
