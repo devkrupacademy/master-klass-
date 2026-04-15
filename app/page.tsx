@@ -903,10 +903,10 @@ function AndriyStatsMobile() {
       </div>
 
       {/* Bio paragraph */}
-      <div className="mt-5 flex gap-2 items-start">
+      <div className="mt-5 flex gap-2 items-start text-left">
         <span className="inline-block rounded-full bg-acid shrink-0" style={{ width: 7, height: 7, marginTop: 7 }} />
         <span className="font-sans" style={{ fontSize: 14, lineHeight: '18px', color: '#FAF8F5' }}>
-          Пройшов шлях від менеджера з продажів до серійного підприємця
+          Пройшов шлях від менеджера з продажів<br />до серійного підприємця
         </span>
       </div>
 
