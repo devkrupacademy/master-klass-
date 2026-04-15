@@ -74,7 +74,7 @@ function CheckItem({ text }: { text: string }) {
 function HeroMobile() {
   return (
     <section
-      className="lg:hidden relative text-white overflow-hidden px-5 pt-8 pb-6"
+      className="lg:hidden relative text-white overflow-hidden px-5 pt-4 pb-4"
       style={{
         background:
           'radial-gradient(ellipse 80% 55% at 50% 55%, #0E3A2C 0%, #071E17 45%, #020806 80%, #000 100%)',
@@ -84,9 +84,9 @@ function HeroMobile() {
       <div
         className="absolute left-1/2 -translate-x-1/2 pointer-events-none"
         style={{
-          top: 180,
-          width: 420,
-          height: 380,
+          top: 120,
+          width: 360,
+          height: 320,
           background: 'radial-gradient(ellipse 60% 60% at 50% 50%, rgba(235,255,0,0.35) 0%, rgba(235,255,0,0.1) 40%, transparent 75%)',
           filter: 'blur(20px)',
         }}
@@ -114,35 +114,11 @@ function HeroMobile() {
           За 2 вечора розберемо ТОП-5 проблем вашого відділу продажу та систему, яка працює без вашого контролю
         </p>
 
-        {/* Portrait */}
-        <div className="hero-anim hero-anim-d3 relative mx-auto mt-4" style={{ width: 272, height: 300 }}>
-          <Image
-            src="/images/andriy-portrait.png"
-            alt="Андрій Крупкін"
-            fill
-            sizes="272px"
-            priority
-            className="object-contain object-bottom"
-          />
-        </div>
-
-        {/* 3 bullet checks */}
-        <ul className="hero-anim hero-anim-d4 mt-6 space-y-3">
-          {HERO_CHECKS.map((t) => (
-            <li key={t} className="flex items-start gap-3">
-              <div className="relative shrink-0" style={{ width: 28, height: 28 }}>
-                <Image src="/images/check-sparkle-green.png" alt="" fill sizes="28px" className="object-contain" />
-              </div>
-              <span className="font-sans text-white" style={{ fontSize: 14, lineHeight: '18px' }}>{t}</span>
-            </li>
-          ))}
-        </ul>
-
         {/* CTA pill */}
         <a
           href="#"
           data-register-cta
-          className="hero-anim hero-anim-d5 cta-animated mt-6 flex items-center justify-center cursor-pointer"
+          className="hero-anim hero-anim-d4 cta-animated mt-5 flex items-center justify-center cursor-pointer"
           style={{
             height: 62,
             borderRadius: 100,
@@ -158,14 +134,14 @@ function HeroMobile() {
 
         {/* Meta */}
         <div
-          className="hero-anim hero-anim-d6 mt-4 font-sans text-center"
+          className="hero-anim hero-anim-d4 mt-3 font-sans text-center"
           style={{ fontSize: 11, lineHeight: '13px', color: 'rgba(217,217,217,1)' }}
         >
           Участь безкоштовна · Zoom-формат · Кількість обмежена
         </div>
 
-        {/* Gift + gray pill */}
-        <div className="hero-anim hero-anim-d6 mt-5 relative" style={{ height: 78 }}>
+        {/* Gift + gray pill with countdown */}
+        <div className="hero-anim hero-anim-d5 mt-4 relative" style={{ height: 78 }}>
           <div
             className="absolute inset-0"
             style={{
@@ -181,9 +157,33 @@ function HeroMobile() {
             className="absolute font-sans text-white"
             style={{ left: 86, right: 14, top: 12, fontSize: 12, lineHeight: '16px' }}
           >
-            Реєструйся протягом <Countdown className="font-semibold" /> подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
+            Реєструйся протягом <Countdown className="font-semibold text-acid" /> подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
           </div>
         </div>
+
+        {/* Portrait */}
+        <div className="hero-anim hero-anim-d5 relative mx-auto mt-5" style={{ width: 220, height: 240 }}>
+          <Image
+            src="/images/andriy-portrait.png"
+            alt="Андрій Крупкін"
+            fill
+            sizes="220px"
+            priority
+            className="object-contain object-bottom"
+          />
+        </div>
+
+        {/* 3 bullet checks */}
+        <ul className="hero-anim hero-anim-d6 mt-4 space-y-3">
+          {HERO_CHECKS.map((t) => (
+            <li key={t} className="flex items-start gap-3">
+              <div className="relative shrink-0" style={{ width: 24, height: 24 }}>
+                <Image src="/images/check-sparkle-green.png" alt="" fill sizes="24px" className="object-contain" />
+              </div>
+              <span className="font-sans text-white" style={{ fontSize: 14, lineHeight: '18px' }}>{t}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
