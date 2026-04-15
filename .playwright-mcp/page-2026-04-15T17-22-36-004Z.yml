@@ -1,0 +1,667 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - link "Cureva" [ref=e10] [cursor=pointer]:
+          - /url: ./
+          - paragraph [ref=e14]: Cureva
+        - generic [ref=e16]:
+          - link "About About" [ref=e18] [cursor=pointer]:
+            - /url: ./about-us
+            - paragraph [ref=e20]: About
+            - paragraph [ref=e22]: About
+          - link "Services Services" [ref=e24] [cursor=pointer]:
+            - /url: ./services
+            - paragraph [ref=e26]: Services
+            - paragraph [ref=e28]: Services
+          - link "Doctors Doctors" [ref=e30] [cursor=pointer]:
+            - /url: ./doctors
+            - paragraph [ref=e32]: Doctors
+            - paragraph [ref=e34]: Doctors
+          - link "Blog Blog" [ref=e36] [cursor=pointer]:
+            - /url: ./blog
+            - paragraph [ref=e38]: Blog
+            - paragraph [ref=e40]: Blog
+          - link "Contact us" [ref=e42] [cursor=pointer]:
+            - /url: ./contact
+            - img [ref=e46]
+            - paragraph [ref=e49]: Contact us
+            - img [ref=e53]
+    - generic [ref=e55]:
+      - banner [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - paragraph [ref=e87]: Based on 20K+ Reviews
+              - heading "Search any doctors & plan your next visit" [level=1] [ref=e89]:
+                - generic [ref=e90]: Search
+                - generic [ref=e91]: any
+                - generic [ref=e92]: doctors
+                - generic [ref=e93]: "&"
+                - generic [ref=e94]: plan
+                - generic [ref=e95]: your
+                - generic [ref=e96]: next
+                - generic [ref=e97]: visit
+              - paragraph [ref=e99]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]: E
+                  - generic [ref=e102]: x
+                  - generic [ref=e103]: p
+                  - generic [ref=e104]: e
+                  - generic [ref=e105]: r
+                  - generic [ref=e106]: i
+                  - generic [ref=e107]: e
+                  - generic [ref=e108]: "n"
+                  - generic [ref=e109]: c
+                  - generic [ref=e110]: e
+                - generic [ref=e111]:
+                  - generic [ref=e112]: l
+                  - generic [ref=e113]: e
+                  - generic [ref=e114]: a
+                  - generic [ref=e115]: d
+                  - generic [ref=e116]: i
+                  - generic [ref=e117]: "n"
+                  - generic [ref=e118]: g
+                - generic [ref=e119]:
+                  - generic [ref=e120]: h
+                  - generic [ref=e121]: e
+                  - generic [ref=e122]: a
+                  - generic [ref=e123]: l
+                  - generic [ref=e124]: t
+                  - generic [ref=e125]: h
+                  - generic [ref=e126]: c
+                  - generic [ref=e127]: a
+                  - generic [ref=e128]: r
+                  - generic [ref=e129]: e
+                - generic [ref=e130]:
+                  - generic [ref=e131]: s
+                  - generic [ref=e132]: e
+                  - generic [ref=e133]: r
+                  - generic [ref=e134]: v
+                  - generic [ref=e135]: i
+                  - generic [ref=e136]: c
+                  - generic [ref=e137]: e
+                  - generic [ref=e138]: s
+                - generic [ref=e139]:
+                  - generic [ref=e140]: w
+                  - generic [ref=e141]: i
+                  - generic [ref=e142]: t
+                  - generic [ref=e143]: h
+                - generic [ref=e144]:
+                  - generic [ref=e145]: e
+                  - generic [ref=e146]: x
+                  - generic [ref=e147]: p
+                  - generic [ref=e148]: e
+                  - generic [ref=e149]: r
+                  - generic [ref=e150]: t
+                - generic [ref=e151]:
+                  - generic [ref=e152]: t
+                  - generic [ref=e153]: r
+                  - generic [ref=e154]: e
+                  - generic [ref=e155]: a
+                  - generic [ref=e156]: t
+                  - generic [ref=e157]: m
+                  - generic [ref=e158]: e
+                  - generic [ref=e159]: "n"
+                  - generic [ref=e160]: t
+                  - generic [ref=e161]: s
+                - generic [ref=e162]:
+                  - generic [ref=e163]: t
+                  - generic [ref=e164]: a
+                  - generic [ref=e165]: i
+                  - generic [ref=e166]: l
+                  - generic [ref=e167]: o
+                  - generic [ref=e168]: r
+                  - generic [ref=e169]: e
+                  - generic [ref=e170]: d
+                - generic [ref=e171]:
+                  - generic [ref=e172]: t
+                  - generic [ref=e173]: o
+                - generic [ref=e174]:
+                  - generic [ref=e175]: "y"
+                  - generic [ref=e176]: o
+                  - generic [ref=e177]: u
+                  - generic [ref=e178]: r
+                - generic [ref=e179]:
+                  - generic [ref=e180]: w
+                  - generic [ref=e181]: o
+                  - generic [ref=e182]: r
+                  - generic [ref=e183]: k
+                - generic [ref=e184]:
+                  - generic [ref=e185]: "n"
+                  - generic [ref=e186]: e
+                  - generic [ref=e187]: e
+                  - generic [ref=e188]: d
+                  - generic [ref=e189]: s
+            - generic [ref=e190]:
+              - link "Contact us" [ref=e192] [cursor=pointer]:
+                - /url: ./contact
+                - img [ref=e196]
+                - paragraph [ref=e199]: Contact us
+                - img [ref=e203]
+              - link "What we do" [ref=e206] [cursor=pointer]:
+                - /url: ./services
+                - paragraph [ref=e208]: What we do
+                - generic [ref=e209]:
+                  - img [ref=e212]
+                  - img [ref=e216]
+            - generic [ref=e218]:
+              - generic [ref=e223]:
+                - paragraph [ref=e225]: Support
+                - paragraph [ref=e227]: 24/7 care access
+              - generic [ref=e232]:
+                - paragraph [ref=e234]: Rating
+                - paragraph [ref=e236]: Rated 5 stars by users
+          - link "Neurologist James Carter" [ref=e241] [cursor=pointer]:
+            - /url: ./doctors/james-carter
+            - generic [ref=e245]:
+              - paragraph [ref=e247]: Neurologist
+              - heading "James Carter" [level=5] [ref=e249]
+              - generic [ref=e250]:
+                - img [ref=e253]
+                - img [ref=e258]
+      - generic [ref=e264]:
+        - paragraph [ref=e270]: About us
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - heading "We" [level=4] [ref=e278]
+            - heading "provide" [level=4] [ref=e280]
+            - heading "comprehensive" [level=4] [ref=e282]
+            - heading "detailed" [level=4] [ref=e284]
+            - heading "healthcare" [level=4] [ref=e286]
+            - heading "solutions" [level=4] [ref=e288]
+            - heading "from" [level=4] [ref=e308]
+            - heading "experts" [level=4] [ref=e310]
+            - heading "in" [level=4] [ref=e312]
+            - heading "Medical" [level=4] [ref=e314]
+            - heading "support," [level=4] [ref=e316]
+            - heading "diagnostics," [level=4] [ref=e318]
+            - heading "and" [level=4] [ref=e320]
+            - heading "patient" [level=4] [ref=e322]
+            - heading "care" [level=4] [ref=e324]
+            - heading "run" [level=4] [ref=e326]
+            - heading "smoothly" [level=4] [ref=e328]
+            - heading "and" [level=4] [ref=e330]
+            - heading "efficiently." [level=4] [ref=e332]
+            - heading "and" [level=4] [ref=e334]
+            - heading "managing" [level=4] [ref=e336]
+            - heading "tasks" [level=4] [ref=e338]
+            - heading "&" [level=4] [ref=e340]
+            - heading "clinical" [level=4] [ref=e342]
+            - heading "support" [level=4] [ref=e344]
+          - generic [ref=e345]:
+            - generic [ref=e348]:
+              - img [ref=e352]
+              - generic [ref=e355]:
+                - generic [ref=e357]:
+                  - text: "200"
+                  - generic [ref=e358]: K+
+                - paragraph [ref=e360]: Patients treated w/ care
+            - generic [ref=e363]:
+              - img [ref=e367]
+              - generic [ref=e370]:
+                - generic [ref=e372]:
+                  - text: "50"
+                  - generic [ref=e373]: "%+"
+                - paragraph [ref=e375]: Positive recovery
+            - generic [ref=e378]:
+              - img [ref=e382]
+              - generic [ref=e385]:
+                - generic [ref=e387]:
+                  - text: "250"
+                  - generic [ref=e388]: +
+                - paragraph [ref=e390]: Certified professionals
+            - generic [ref=e393]:
+              - img [ref=e397]
+              - generic [ref=e400]:
+                - generic [ref=e402]:
+                  - text: "0"
+                  - generic [ref=e403]: /7
+                - paragraph [ref=e405]: Active support
+            - generic [ref=e408]:
+              - img [ref=e412]
+              - generic [ref=e415]:
+                - generic [ref=e417]:
+                  - text: "50"
+                  - generic [ref=e418]: +
+                - paragraph [ref=e420]: Specialized services
+            - generic [ref=e423]:
+              - img [ref=e427]
+              - generic [ref=e430]:
+                - generic [ref=e432]:
+                  - text: "0"
+                  - generic [ref=e433]: +
+                - paragraph [ref=e435]: Years of experience
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - paragraph [ref=e442]: Benefits
+          - heading "Grow with healthcare support shaped by trust & care" [level=2] [ref=e444]
+        - generic [ref=e445]:
+          - generic [ref=e454]:
+            - heading "Support & care" [level=6] [ref=e456]
+            - paragraph [ref=e458]: Personalized healthcare services delivered with empathy & dedication
+          - generic [ref=e467]:
+            - heading "Cutting-edge innovation" [level=6] [ref=e469]
+            - paragraph [ref=e471]: Advanced treatments powered by modern technology and experts
+          - link "Ready for better care? Our commitment to innovation drives better outcomes for every patient" [ref=e474] [cursor=pointer]:
+            - /url: ./contact
+            - generic [ref=e477]:
+              - img [ref=e480]
+              - img [ref=e484]
+            - generic [ref=e486]:
+              - heading "Ready for better care?" [level=4] [ref=e488]
+              - paragraph [ref=e490]: Our commitment to innovation drives better outcomes for every patient
+          - generic [ref=e501]:
+            - heading "Reliable expertise" [level=6] [ref=e503]
+            - paragraph [ref=e505]: Work with qualified specialists who understand your healthcare
+          - generic [ref=e514]:
+            - heading "Seamless support" [level=6] [ref=e516]
+            - paragraph [ref=e518]: irst visit to follow-up care, we make every step smooth and stress-free
+      - generic [ref=e520]:
+        - generic [ref=e521]:
+          - paragraph [ref=e525]: Services
+          - heading "Expert care made simple" [level=2] [ref=e527]
+          - paragraph [ref=e529]: We offer a wide range of expert-led healthcare services built to support your well-being
+          - link "View all services" [ref=e532] [cursor=pointer]:
+            - /url: ./services
+            - paragraph [ref=e534]: View all services
+            - generic [ref=e535]:
+              - img [ref=e538]
+              - img [ref=e542]
+        - generic [ref=e544]:
+          - link "General care" [ref=e547] [cursor=pointer]:
+            - /url: ./services/general-care
+            - generic [ref=e550]:
+              - heading "General care" [level=5] [ref=e552]
+              - generic [ref=e553]:
+                - img [ref=e557]
+                - img [ref=e561]
+          - link "Cardiology" [ref=e565] [cursor=pointer]:
+            - /url: ./services/cardiology
+            - generic [ref=e568]:
+              - heading "Cardiology" [level=5] [ref=e570]
+              - generic [ref=e571]:
+                - img [ref=e575]
+                - img [ref=e579]
+          - link "Orthopedics" [ref=e583] [cursor=pointer]:
+            - /url: ./services/orthopedics
+            - generic [ref=e586]:
+              - heading "Orthopedics" [level=5] [ref=e588]
+              - generic [ref=e589]:
+                - img [ref=e593]
+                - img [ref=e597]
+          - link "Gastroenterology" [ref=e601] [cursor=pointer]:
+            - /url: ./services/gastroenterology
+            - generic [ref=e604]:
+              - heading "Gastroenterology" [level=5] [ref=e606]
+              - generic [ref=e607]:
+                - img [ref=e611]
+                - img [ref=e615]
+          - link "Neurology" [ref=e619] [cursor=pointer]:
+            - /url: ./services/neurology
+            - generic [ref=e622]:
+              - heading "Neurology" [level=5] [ref=e624]
+              - generic [ref=e625]:
+                - img [ref=e629]
+                - img [ref=e633]
+          - link "Pediatrics" [ref=e637] [cursor=pointer]:
+            - /url: ./services/pediatrics
+            - generic [ref=e640]:
+              - heading "Pediatrics" [level=5] [ref=e642]
+              - generic [ref=e643]:
+                - img [ref=e647]
+                - img [ref=e651]
+      - generic [ref=e655]:
+        - generic [ref=e656]:
+          - paragraph [ref=e660]: Our Vision
+          - heading "Empowering health with care, clarity, and expertise" [level=2] [ref=e662]
+          - paragraph [ref=e664]: Our skilled healthcare team is committed to delivering trusted medical support and helping individuals live healthier lives.
+        - generic [ref=e665]:
+          - generic [ref=e668]:
+            - img [ref=e671]
+            - paragraph [ref=e674]: Personalized care plans tailored for patients
+          - generic [ref=e677]:
+            - img [ref=e680]
+            - paragraph [ref=e683]: Expert treatment guided by experienced
+        - link "Contact us" [ref=e686] [cursor=pointer]:
+          - /url: ./contact
+          - img [ref=e690]
+          - paragraph [ref=e693]: Contact us
+          - img [ref=e697]
+      - generic [ref=e703]:
+        - generic [ref=e704]:
+          - paragraph [ref=e708]: Feature
+          - heading "Healthcare features designed for clarity and care" [level=2] [ref=e710]
+        - generic [ref=e711]:
+          - generic [ref=e718]:
+            - paragraph [ref=e720]: Advanced diagnosis
+            - paragraph [ref=e722]: Quick and precise care results
+          - generic [ref=e729]:
+            - paragraph [ref=e731]: Modern surgical
+            - paragraph [ref=e733]: Equipped for safe & surgeries
+          - generic [ref=e740]:
+            - paragraph [ref=e742]: Innovative treatments
+            - paragraph [ref=e744]: Access to medical advancement
+          - generic [ref=e751]:
+            - paragraph [ref=e753]: Patient-centric care
+            - paragraph [ref=e755]: Treatment plans tailored to you
+          - generic [ref=e762]:
+            - paragraph [ref=e764]: Specialized staff
+            - paragraph [ref=e766]: Experts across every specialty
+          - generic [ref=e773]:
+            - paragraph [ref=e775]: Smooth appointment
+            - paragraph [ref=e777]: Easy, fast, and simple bookings
+          - generic [ref=e784]:
+            - paragraph [ref=e786]: Emergency response
+            - paragraph [ref=e788]: Fast, expert action when it matter
+          - generic [ref=e795]:
+            - paragraph [ref=e797]: 24/7 patient support
+            - paragraph [ref=e799]: Care and guidance you need
+          - generic [ref=e806]:
+            - paragraph [ref=e808]: In-house lab testing
+            - paragraph [ref=e810]: Fast results without the wait
+      - generic [ref=e812]:
+        - generic [ref=e816]:
+          - generic [ref=e817]:
+            - paragraph [ref=e821]: Process
+            - heading "Step-by-step care process made simple for you" [level=4] [ref=e823]
+          - link "Contact us" [ref=e825] [cursor=pointer]:
+            - /url: ./contact
+            - img [ref=e829]
+            - paragraph [ref=e832]: Contact us
+            - img [ref=e836]
+        - generic [ref=e840]:
+          - generic [ref=e843]:
+            - paragraph [ref=e846]: "01"
+            - generic [ref=e847]:
+              - heading "Personalized plans" [level=6] [ref=e849]
+              - paragraph [ref=e851]: Custom health strategies built around your unique healthcare needs
+          - generic [ref=e855]:
+            - paragraph [ref=e858]: "02"
+            - generic [ref=e859]:
+              - heading "Trusted professionals" [level=6] [ref=e861]
+              - paragraph [ref=e863]: Skilled doctors & specialists guiding every step in solution
+          - generic [ref=e867]:
+            - paragraph [ref=e870]: "03"
+            - generic [ref=e871]:
+              - heading "Seamless experience" [level=6] [ref=e873]
+              - paragraph [ref=e875]: From booking to treatment — smooth, everything stress-free care
+      - generic [ref=e879]:
+        - generic [ref=e880]:
+          - paragraph [ref=e884]: Testimonials
+          - heading "What our patients say about their care experience" [level=2] [ref=e886]
+          - paragraph [ref=e888]: Real stories and honest review from those we've for
+        - generic [ref=e889]:
+          - generic [ref=e890]:
+            - generic [ref=e892]:
+              - generic [ref=e894]:
+                - img [ref=e897]
+                - img [ref=e902]
+                - img [ref=e907]
+                - img [ref=e912]
+                - img [ref=e917]
+              - generic [ref=e920]:
+                - paragraph [ref=e922]: Every part of the process was handled with care, empathy, and real support
+                - generic [ref=e926]:
+                  - paragraph [ref=e928]: Emily Carter
+                  - paragraph [ref=e930]: Neurology
+            - generic [ref=e932]:
+              - generic [ref=e934]:
+                - img [ref=e937]
+                - img [ref=e942]
+                - img [ref=e947]
+                - img [ref=e952]
+                - img [ref=e957]
+              - generic [ref=e960]:
+                - paragraph [ref=e962]: Everything from the clean environment to the knowledgeable, attentive staff gave me full confidence in their care & support
+                - generic [ref=e966]:
+                  - paragraph [ref=e968]: James Walker
+                  - paragraph [ref=e970]: Orthopedics
+            - generic [ref=e972]:
+              - generic [ref=e974]:
+                - img [ref=e977]
+                - img [ref=e982]
+                - img [ref=e987]
+                - img [ref=e992]
+                - img [ref=e997]
+              - generic [ref=e1000]:
+                - paragraph [ref=e1002]: They not only treated my condition with expertise, but also provided emotional support through the entire process
+                - generic [ref=e1006]:
+                  - paragraph [ref=e1008]: Olivia Bennett
+                  - paragraph [ref=e1010]: General Care
+          - generic [ref=e1011]:
+            - generic [ref=e1013]:
+              - generic [ref=e1015]:
+                - img [ref=e1018]
+                - img [ref=e1023]
+                - img [ref=e1028]
+                - img [ref=e1033]
+                - img [ref=e1038]
+              - generic [ref=e1041]:
+                - paragraph [ref=e1043]: The doctors were friendly, professional, and made me feel at ease during every step of my visit — they genuinely cared about my comfort and took time to explain everything clearly
+                - generic [ref=e1047]:
+                  - paragraph [ref=e1049]: Ethan Brooks
+                  - paragraph [ref=e1051]: Cardiology
+            - generic [ref=e1053]:
+              - generic [ref=e1055]:
+                - img [ref=e1058]
+                - img [ref=e1063]
+                - img [ref=e1068]
+                - img [ref=e1073]
+                - img [ref=e1078]
+              - generic [ref=e1081]:
+                - paragraph [ref=e1083]: Booking my appointment was quick, smooth, and stress-free, with helpful staff guiding me through the process
+                - generic [ref=e1087]:
+                  - paragraph [ref=e1089]: Sophia Mitchell
+                  - paragraph [ref=e1091]: Pediatrics
+            - generic [ref=e1093]:
+              - generic [ref=e1095]:
+                - img [ref=e1098]
+                - img [ref=e1103]
+                - img [ref=e1108]
+                - img [ref=e1113]
+                - img [ref=e1118]
+              - generic [ref=e1121]:
+                - paragraph [ref=e1123]: The doctors were friendly, professional, and made me feel at ease therapy
+                - generic [ref=e1127]:
+                  - paragraph [ref=e1129]: Liam Hayes
+                  - paragraph [ref=e1131]: Neurology
+          - generic [ref=e1132]:
+            - generic [ref=e1134]:
+              - generic [ref=e1136]:
+                - img [ref=e1139]
+                - img [ref=e1144]
+                - img [ref=e1149]
+                - img [ref=e1154]
+                - img [ref=e1159]
+              - generic [ref=e1162]:
+                - paragraph [ref=e1164]: Booking my appointment was quick, smooth, and totally stress-free
+                - generic [ref=e1168]:
+                  - paragraph [ref=e1170]: Noah Reed
+                  - paragraph [ref=e1172]: Surgical Care
+            - generic [ref=e1174]:
+              - generic [ref=e1176]:
+                - img [ref=e1179]
+                - img [ref=e1184]
+                - img [ref=e1189]
+                - img [ref=e1194]
+                - img [ref=e1199]
+              - generic [ref=e1202]:
+                - paragraph [ref=e1204]: "\"The appointment process was quick and easy, with friendly staff guiding me throughout.\""
+                - generic [ref=e1208]:
+                  - paragraph [ref=e1210]: Ava Collins
+                  - paragraph [ref=e1212]: Gastroenterology
+            - generic [ref=e1214]:
+              - generic [ref=e1216]:
+                - img [ref=e1219]
+                - img [ref=e1224]
+                - img [ref=e1229]
+                - img [ref=e1234]
+                - img [ref=e1239]
+              - generic [ref=e1242]:
+                - paragraph [ref=e1244]: I appreciated how clearly everything was explained during my visit, which helped ease any worries I had
+                - generic [ref=e1248]:
+                  - paragraph [ref=e1250]: Grace Foster
+                  - paragraph [ref=e1252]: Mental Health
+      - generic [ref=e1254]:
+        - generic [ref=e1255]:
+          - paragraph [ref=e1259]: Blogs
+          - heading "Insights to keep you healthy" [level=2] [ref=e1261]
+          - paragraph [ref=e1263]: Explore expert tips, health news, and patient-friendly articles to guide your wellness journey
+          - link "View all blog" [ref=e1266] [cursor=pointer]:
+            - /url: ./blog
+            - paragraph [ref=e1268]: View all blog
+            - generic [ref=e1269]:
+              - img [ref=e1272]
+              - img [ref=e1276]
+        - generic [ref=e1278]:
+          - link "How routine shape a healthier future for your child Apr 28, 2025 5 min read" [ref=e1281] [cursor=pointer]:
+            - /url: ./blog/how-routine-shape-a-healthier-future-for-your-child
+            - generic [ref=e1285]:
+              - heading "How routine shape a healthier future for your child" [level=5] [ref=e1288]
+              - generic [ref=e1289]:
+                - generic [ref=e1290]:
+                  - img [ref=e1293]
+                  - paragraph [ref=e1297]: Apr 28, 2025
+                - generic [ref=e1298]:
+                  - img [ref=e1301]
+                  - paragraph [ref=e1305]: 5 min read
+          - link "How to protect your joints before they start hurting Apr 2, 2025 6 min read" [ref=e1308] [cursor=pointer]:
+            - /url: ./blog/how-to-protect-your-joints-before-they-start-hurting
+            - generic [ref=e1312]:
+              - heading "How to protect your joints before they start hurting" [level=5] [ref=e1315]
+              - generic [ref=e1316]:
+                - generic [ref=e1317]:
+                  - img [ref=e1320]
+                  - paragraph [ref=e1324]: Apr 2, 2025
+                - generic [ref=e1325]:
+                  - img [ref=e1328]
+                  - paragraph [ref=e1332]: 6 min read
+          - link "What your body is trying to say when you feel bloated Apr 6, 2025 4 min read" [ref=e1335] [cursor=pointer]:
+            - /url: ./blog/what-your-body-is-trying-to-say-when-you-feel-bloated
+            - generic [ref=e1339]:
+              - heading "What your body is trying to say when you feel bloated" [level=5] [ref=e1342]
+              - generic [ref=e1343]:
+                - generic [ref=e1344]:
+                  - img [ref=e1347]
+                  - paragraph [ref=e1351]: Apr 6, 2025
+                - generic [ref=e1352]:
+                  - img [ref=e1355]
+                  - paragraph [ref=e1359]: 4 min read
+    - generic [ref=e1363]:
+      - generic [ref=e1364]:
+        - paragraph [ref=e1368]: FAQ
+        - heading "Answers to your questions" [level=2] [ref=e1370]
+        - paragraph [ref=e1372]: Get quick, clear information about our services, appointments, support, and more
+      - generic [ref=e1374]:
+        - generic [ref=e1377] [cursor=pointer]:
+          - paragraph [ref=e1379]: How do I book an appointment?
+          - img [ref=e1383]
+        - generic [ref=e1388] [cursor=pointer]:
+          - paragraph [ref=e1390]: Do you accept walk-in patients?
+          - img [ref=e1394]
+        - generic [ref=e1399] [cursor=pointer]:
+          - paragraph [ref=e1401]: What should I bring for my first visit?
+          - img [ref=e1405]
+        - generic [ref=e1410] [cursor=pointer]:
+          - paragraph [ref=e1412]: Are your doctors licensed and experienced?
+          - img [ref=e1416]
+        - generic [ref=e1421] [cursor=pointer]:
+          - paragraph [ref=e1423]: Can I reschedule or cancel my appointment?
+          - img [ref=e1427]
+        - generic [ref=e1432] [cursor=pointer]:
+          - paragraph [ref=e1434]: Do you accept health insurance?
+          - img [ref=e1438]
+    - generic [ref=e1445]:
+      - generic [ref=e1446]:
+        - heading "Your wellness journey begins in one click" [level=1] [ref=e1448]
+        - paragraph [ref=e1450]: Book your appointment today and experience expert care designed around you to be better
+      - generic [ref=e1451]:
+        - link "Contact us" [ref=e1453] [cursor=pointer]:
+          - /url: ./contact
+          - img [ref=e1457]
+          - paragraph [ref=e1460]: Contact us
+          - img [ref=e1464]
+        - link "Our services" [ref=e1467] [cursor=pointer]:
+          - /url: ./services
+          - paragraph [ref=e1469]: Our services
+          - generic [ref=e1470]:
+            - img [ref=e1473]
+            - img [ref=e1477]
+    - contentinfo [ref=e1481]:
+      - generic [ref=e1483]:
+        - generic [ref=e1484]:
+          - link "Cureva" [ref=e1486] [cursor=pointer]:
+            - /url: ./
+            - paragraph [ref=e1490]: Cureva
+          - generic [ref=e1491]:
+            - paragraph [ref=e1493]: Stay up to date on the latest features and releases by joining our socials
+            - generic [ref=e1494]:
+              - link [ref=e1496] [cursor=pointer]:
+                - /url: https://x.com
+              - link [ref=e1502] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+              - link [ref=e1508] [cursor=pointer]:
+                - /url: https://www.facebook.com/
+              - link [ref=e1514] [cursor=pointer]:
+                - /url: https://www.youtube.com/
+              - link [ref=e1520] [cursor=pointer]:
+                - /url: http://tiktok.com/
+        - generic [ref=e1525]:
+          - generic [ref=e1526]:
+            - paragraph [ref=e1528]: Pages
+            - generic [ref=e1529]:
+              - link "Home" [ref=e1531] [cursor=pointer]:
+                - /url: ./
+                - paragraph [ref=e1533]: Home
+              - link "About" [ref=e1535] [cursor=pointer]:
+                - /url: ./about-us
+                - paragraph [ref=e1537]: About
+              - link "Contact" [ref=e1539] [cursor=pointer]:
+                - /url: ./contact
+                - paragraph [ref=e1541]: Contact
+              - link "FAQ's" [ref=e1543] [cursor=pointer]:
+                - /url: ./faq
+                - paragraph [ref=e1545]: FAQ's
+              - link "Error 404" [ref=e1547] [cursor=pointer]:
+                - /url: ./404
+                - paragraph [ref=e1549]: Error 404
+          - generic [ref=e1550]:
+            - paragraph [ref=e1552]: CMS Pages
+            - generic [ref=e1553]:
+              - link "Services" [ref=e1555] [cursor=pointer]:
+                - /url: ./services
+                - paragraph [ref=e1557]: Services
+              - link "Careers" [ref=e1559] [cursor=pointer]:
+                - /url: ./careers
+                - paragraph [ref=e1561]: Careers
+              - link "Doctors" [ref=e1563] [cursor=pointer]:
+                - /url: ./doctors
+                - paragraph [ref=e1565]: Doctors
+              - link "Blog" [ref=e1567] [cursor=pointer]:
+                - /url: ./blog
+                - paragraph [ref=e1569]: Blog
+          - generic [ref=e1570]:
+            - paragraph [ref=e1572]: Address
+            - generic [ref=e1573]:
+              - link "testing@gmail.com" [ref=e1575] [cursor=pointer]:
+                - /url: "mailto: testing@gmail.com"
+                - generic [ref=e1576]:
+                  - img [ref=e1579]
+                  - img [ref=e1583]
+                - paragraph [ref=e1586]: testing@gmail.com
+              - link "+1 234 567 890" [ref=e1588] [cursor=pointer]:
+                - /url: "tel: +123 456 789"
+                - generic [ref=e1589]:
+                  - img [ref=e1592]
+                  - img [ref=e1596]
+                - paragraph [ref=e1599]: +1 234 567 890
+              - link "Asterdem, NL" [ref=e1601] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/BQZR5eSnnjG1gJoT6
+                - generic [ref=e1602]:
+                  - img [ref=e1605]
+                  - img [ref=e1609]
+                - paragraph [ref=e1612]: Asterdem, NL
+  - link "Create a free website with Framer, the website builder loved by startups, designers and agencies." [ref=e1613] [cursor=pointer]:
+    - /url: https://www.framer.com
+    - paragraph [ref=e1618]: Create a free website with Framer, the website builder loved by startups, designers and agencies.
