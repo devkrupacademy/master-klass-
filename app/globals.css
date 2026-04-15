@@ -20,7 +20,8 @@ body {
 
 /* Scale 1920px desktop layout down to fit viewports between lg (1024) and 1920 */
 @media (min-width: 1024px) and (max-width: 1919px) {
-  body {
+  html {
+    overflow-x: hidden;
     zoom: calc(100vw / 1920);
   }
 }
