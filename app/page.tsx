@@ -91,7 +91,7 @@ function HeroMobile() {
           className="mt-4 font-display uppercase text-white text-center"
           style={{ fontSize: 26, lineHeight: '26px', letterSpacing: 0 }}
         >
-          Як власнику бізнесу зробити <span className="text-acid">х2 у 2026 році</span> з сильною командою продажів
+          Як зробити <span className="text-acid">х2 у продажах у 2026 році</span> з сильною командою продажів
         </h1>
 
         {/* Subtitle */}
@@ -193,7 +193,7 @@ function Hero() {
 
       <div
         className="relative mx-auto"
-        style={{ width: 1920, height: 836, maxWidth: '100%' }}
+        style={{ width: 1920, height: 889, maxWidth: '100%' }}
       >
         {/* Portrait */}
         <div
@@ -789,7 +789,7 @@ function ResultsSection() {
           className="absolute font-display uppercase text-white text-center"
           style={{ left: 300, top: 80, width: 1320, fontSize: 100, lineHeight: '100px' }}
         >
-          результати пiсля мастермайнду
+          результати після мастермайнду
         </h2>
 
         <div
@@ -939,41 +939,41 @@ function AndriyStats() {
 
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1920, height: 1140 }}>
-        {/* Lime radial glow behind portrait */}
-        <div
-          className="absolute pointer-events-none"
-          style={{
-            left: 540,
-            top: 60,
-            width: 900,
-            height: 900,
-            background: 'radial-gradient(circle, rgba(235,255,0,0.22) 0%, rgba(235,255,0,0.08) 35%, rgba(0,0,0,0) 70%)',
-            filter: 'blur(40px)',
-          }}
-        />
-
+      <div className="relative mx-auto" style={{ width: 1920, height: 1087, maxWidth: '100%' }}>
         {/* Inner absolute layer aligned to Figma x=303 */}
         <div className="absolute" style={{ left: SECTION_LEFT, top: 0, width: 1309, height: 1087 }}>
+          {/* Lime glow (large horizontal oval behind portrait) */}
+          <div
+            className="absolute pointer-events-none"
+            style={{ left: 57, top: -127, width: 1424, height: 539, borderRadius: '50%', background: '#EBFF00', filter: 'blur(150px)', opacity: 0.35 }}
+          />
+          {/* White glow (soft left) */}
+          <div
+            className="absolute pointer-events-none"
+            style={{ left: -326, top: -176, width: 981, height: 544, borderRadius: '50%', background: '#ffffff', filter: 'blur(150px)', opacity: 0.12 }}
+          />
+
           {/* Portrait */}
-          <div className="absolute" style={{ left: 430, top: 20, width: 540, height: 700 }}>
+          <div className="absolute" style={{ left: -35, top: 75, width: 624, height: 740 }}>
             <Image
               src="/images/andriy-portrait.png"
               alt="Андрій Крупкін"
               fill
-              sizes="540px"
+              sizes="624px"
               className="object-contain object-bottom"
             />
           </div>
 
-          {/* "Автор курсу" badge */}
+          {/* "Автор курсу" badge — white pill */}
           <div
-            className="absolute flex items-center justify-center rounded-full border border-white/40"
-            style={{ left: 892 - SECTION_LEFT, top: 0, width: 279, height: 70, background: 'rgba(255,255,255,0.06)', backdropFilter: 'blur(8px)' }}
+            className="absolute flex items-center justify-center rounded-full bg-white"
+            style={{ left: 589, top: 0, width: 279, height: 70 }}
           >
-            <span className="w-[9px] h-[9px] rounded-full bg-acid mr-3" />
-            <span className="font-sans text-white" style={{ fontSize: 18 }}>Автор курсу</span>
-            <span className="w-[9px] h-[9px] rounded-full bg-acid ml-3" />
+            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ left: 16, top: 16 }} />
+            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ left: 16, bottom: 16 }} />
+            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ right: 16, top: 16 }} />
+            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ right: 16, bottom: 16 }} />
+            <span className="font-sans text-black" style={{ fontSize: 18 }}>Автор курсу</span>
           </div>
 
           {/* АНДРІЙ */}
@@ -994,14 +994,14 @@ function AndriyStats() {
           {/* Social icons */}
           <a
             href="#"
-            className="absolute flex items-center justify-center bg-white rounded-[4px]"
+            className="absolute flex items-center justify-center bg-acid rounded-[8px]"
             style={{ left: 1404 - SECTION_LEFT, top: 372, width: 72, height: 72 }}
           >
             <Image src="/icons/icon-youtube.svg" alt="YouTube" width={36} height={36} />
           </a>
           <a
             href="#"
-            className="absolute flex items-center justify-center bg-white rounded-[4px]"
+            className="absolute flex items-center justify-center bg-acid rounded-[8px]"
             style={{ left: 1489 - SECTION_LEFT, top: 372, width: 68, height: 68 }}
           >
             <Image src="/icons/icon-instagram.svg" alt="Instagram" width={32} height={32} />
@@ -1009,15 +1009,15 @@ function AndriyStats() {
 
           {/* Bio pill */}
           <div
-            className="absolute flex items-center"
-            style={{ left: 390 - SECTION_LEFT, top: 592, width: 387, height: 160 }}
+            className="absolute flex"
+            style={{ left: 390 - SECTION_LEFT, top: 711, width: 442, gap: 14 }}
           >
             <span
               className="inline-block rounded-full bg-acid flex-shrink-0"
-              style={{ width: 9, height: 9, marginRight: 14, alignSelf: 'flex-start', marginTop: 22 }}
+              style={{ width: 9, height: 9, marginTop: 10 }}
             />
             <span className="font-sans" style={{ fontSize: 24, lineHeight: '30px', color: '#FAF8F5' }}>
-              Пройшов шлях від менеджера з продажів до серійного підприємця
+              Пройшов шлях від менеджера з продажів<br />до серійного підприємця
             </span>
           </div>
 
@@ -1026,8 +1026,8 @@ function AndriyStats() {
             className="absolute bg-acid text-black"
             style={{ left: 805 - SECTION_LEFT, top: 592, width: 374, height: 167, borderRadius: 16, padding: '24px 28px' }}
           >
-            <div className="font-display" style={{ fontSize: 80, lineHeight: '0.95', fontWeight: 700 }}>
-              18<span className="text-black">+</span> <span style={{ fontSize: 80 }}>років</span>
+            <div className="font-display" style={{ fontSize: 80, lineHeight: '0.95', fontWeight: 700, whiteSpace: 'nowrap' }}>
+              18+ років
             </div>
             <div className="font-sans" style={{ fontSize: 24, lineHeight: '28px', marginTop: 8 }}>
               років у сфері продажів
@@ -1385,7 +1385,7 @@ function SecondCtaSection() {
       />
       <div className="relative mx-auto max-w-[1304px] px-6 md:px-10 py-24 md:py-28">
         <h2 className="font-display text-[44px] md:text-h2 uppercase text-center leading-none tracking-[-0.022em] max-w-[1100px] mx-auto">
-          Такий живий формат проводимо раз на кiлька мiсяцiв
+          Такий живий формат проводимо раз на кілька місяців
         </h2>
 
         <p className="mt-8 text-center font-sans text-eyebrow-date text-white/75 max-w-[720px] mx-auto">

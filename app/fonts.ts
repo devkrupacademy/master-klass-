@@ -10,7 +10,7 @@ export const inter = Inter({
 });
 
 export const display = localFont({
-  src: [{ path: '../public/fonts/BebasNeueCyrillic-Regular.woff2', weight: '400', style: 'normal' }],
+  src: [{ path: '../public/fonts/BebasNeueCyrillic-Regular.ttf', weight: '400', style: 'normal' }],
   variable: '--font-display',
   display: 'swap',
   fallback: ['Impact', 'Oswald', 'sans-serif'],
