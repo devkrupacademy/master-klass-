@@ -1001,20 +1001,20 @@ function AndriyStats() {
             Крупкін
           </div>
 
-          {/* Social icons */}
+          {/* Social icons — original yellow SVGs on dark bg */}
           <a
             href="#"
-            className="absolute flex items-center justify-center bg-acid rounded-[8px]"
+            className="absolute flex items-center justify-center"
             style={{ left: 1404 - SECTION_LEFT, top: 372, width: 72, height: 72 }}
           >
-            <Image src="/icons/icon-youtube-black.svg" alt="YouTube" width={36} height={36} />
+            <Image src="/icons/icon-youtube.svg" alt="YouTube" width={72} height={51} />
           </a>
           <a
             href="#"
-            className="absolute flex items-center justify-center bg-acid rounded-[8px]"
+            className="absolute flex items-center justify-center"
             style={{ left: 1489 - SECTION_LEFT, top: 372, width: 68, height: 68 }}
           >
-            <Image src="/icons/icon-instagram-black.svg" alt="Instagram" width={32} height={32} />
+            <Image src="/icons/icon-instagram.svg" alt="Instagram" width={68} height={68} />
           </a>
 
           {/* Bio pill */}
