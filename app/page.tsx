@@ -854,12 +854,9 @@ function AndriyStatsMobile() {
   ];
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-10">
-      {/* "Автор курсу" badge */}
-      <div
-        className="mx-auto flex items-center justify-center rounded-full"
-        style={{ width: 200, height: 40, background: '#1E1E1E' }}
-      >
-        <span className="font-sans text-white" style={{ fontSize: 13 }}>Автор курсу</span>
+      {/* "Автор курсу" badge — image */}
+      <div className="relative mx-auto" style={{ width: 200, height: 40 }}>
+        <Image src="/images/112.png" alt="Автор курсу" fill sizes="200px" className="object-contain" />
       </div>
 
       {/* Portrait + glow */}
@@ -981,12 +978,9 @@ function AndriyStats() {
             />
           </div>
 
-          {/* "Автор курсу" badge */}
-          <div
-            className="absolute flex items-center justify-center rounded-full"
-            style={{ left: 589, top: 0, width: 279, height: 70, background: '#1E1E1E' }}
-          >
-            <span className="font-sans text-white" style={{ fontSize: 18 }}>Автор курсу</span>
+          {/* "Автор курсу" badge — image */}
+          <div className="absolute" style={{ left: 589, top: 0, width: 279, height: 70 }}>
+            <Image src="/images/112.png" alt="Автор курсу" fill sizes="279px" className="object-contain" />
           </div>
 
           {/* АНДРІЙ */}
