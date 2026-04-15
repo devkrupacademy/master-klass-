@@ -840,12 +840,11 @@ function AndriyStatsMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-10">
       {/* "Автор курсу" badge */}
-      <div className="mx-auto flex items-center justify-center rounded-full border border-white/40"
-        style={{ width: 200, height: 40, background: 'rgba(255,255,255,0.06)', backdropFilter: 'blur(8px)' }}
+      <div
+        className="mx-auto flex items-center justify-center rounded-full"
+        style={{ width: 200, height: 40, background: '#1E1E1E' }}
       >
-        <span className="w-[6px] h-[6px] rounded-full bg-acid mr-2" />
         <span className="font-sans text-white" style={{ fontSize: 13 }}>Автор курсу</span>
-        <span className="w-[6px] h-[6px] rounded-full bg-acid ml-2" />
       </div>
 
       {/* Portrait + glow */}
@@ -964,16 +963,12 @@ function AndriyStats() {
             />
           </div>
 
-          {/* "Автор курсу" badge — white pill */}
+          {/* "Автор курсу" badge */}
           <div
-            className="absolute flex items-center justify-center rounded-full bg-white"
-            style={{ left: 589, top: 0, width: 279, height: 70 }}
+            className="absolute flex items-center justify-center rounded-full"
+            style={{ left: 589, top: 0, width: 279, height: 70, background: '#1E1E1E' }}
           >
-            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ left: 16, top: 16 }} />
-            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ left: 16, bottom: 16 }} />
-            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ right: 16, top: 16 }} />
-            <span className="absolute w-[7px] h-[7px] rounded-full bg-acid" style={{ right: 16, bottom: 16 }} />
-            <span className="font-sans text-black" style={{ fontSize: 18 }}>Автор курсу</span>
+            <span className="font-sans text-white" style={{ fontSize: 18 }}>Автор курсу</span>
           </div>
 
           {/* АНДРІЙ */}
