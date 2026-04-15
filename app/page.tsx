@@ -80,18 +80,6 @@ function HeroMobile() {
           'radial-gradient(ellipse 80% 55% at 50% 55%, #0E3A2C 0%, #071E17 45%, #020806 80%, #000 100%)',
       }}
     >
-      {/* lime glow behind portrait area */}
-      <div
-        className="absolute left-1/2 -translate-x-1/2 pointer-events-none"
-        style={{
-          top: 120,
-          width: 360,
-          height: 320,
-          background: 'radial-gradient(ellipse 60% 60% at 50% 50%, rgba(235,255,0,0.35) 0%, rgba(235,255,0,0.1) 40%, transparent 75%)',
-          filter: 'blur(20px)',
-        }}
-      />
-
       <div className="relative">
         {/* Eyebrow */}
         <div className="hero-anim hero-anim-d1 font-sans text-acid text-center" style={{ fontSize: 13, lineHeight: '15px' }}>
@@ -164,14 +152,7 @@ function HeroMobile() {
         {/* Portrait */}
         <div
           className="hero-anim hero-anim-d5 relative mx-auto mt-5"
-          style={{
-            width: 220,
-            height: 240,
-            WebkitMaskImage:
-              'linear-gradient(to bottom, #000 0%, #000 75%, rgba(0,0,0,0.5) 90%, transparent 100%)',
-            maskImage:
-              'linear-gradient(to bottom, #000 0%, #000 75%, rgba(0,0,0,0.5) 90%, transparent 100%)',
-          }}
+          style={{ width: 220, height: 240 }}
         >
           <Image
             src="/images/andriy-portrait.png"
@@ -203,17 +184,6 @@ function HeroMobile() {
 function Hero() {
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
-      {/* Lime radial glow that spans y=593..889 in Figma */}
-      <div
-        className="absolute left-0 right-0 pointer-events-none"
-        style={{
-          top: 488,
-          height: 296,
-          background:
-            'radial-gradient(ellipse 60% 100% at 50% 50%, rgba(235,255,0,0.25) 0%, rgba(235,255,0,0.08) 40%, transparent 75%)',
-        }}
-      />
-
       <div
         className="relative mx-auto"
         style={{ width: 1920, height: 889, maxWidth: '100%' }}
@@ -236,16 +206,7 @@ function Hero() {
         {/* Portrait */}
         <ParallaxImage
           className="absolute"
-          style={{
-            left: 1123,
-            top: 38,
-            width: 540,
-            height: 641,
-            WebkitMaskImage:
-              'linear-gradient(to bottom, #000 0%, #000 78%, rgba(0,0,0,0.6) 92%, transparent 100%)',
-            maskImage:
-              'linear-gradient(to bottom, #000 0%, #000 78%, rgba(0,0,0,0.6) 92%, transparent 100%)',
-          }}
+          style={{ left: 1123, top: 38, width: 540, height: 641 }}
           scaleTo={1.08}
         >
           <Image
