@@ -3,8 +3,24 @@ import { inter, display } from './fonts';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Академія продажів — Майстермайнд Андрія Крупкіна',
-  description: 'Як зробити х2 у продажах у 2026 році з сильною командою продажів',
+  title: 'Майстермайнд Андрія Крупкіна — х2 у продажах у 2026 році',
+  description:
+    'Живий 2-денний майстермайнд 21–22 квітня. За 2 вечори розберемо ТОП-5 проблем твого відділу продажів і побудуємо систему, яка працює без твого контролю.',
+  openGraph: {
+    title: 'Майстермайнд Андрія Крупкіна — х2 у продажах у 2026 році',
+    description:
+      'Живий 2-денний майстермайнд 21–22 квітня. Система продажів, яка працює без твого контролю.',
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+    locale: 'uk_UA',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Майстермайнд Андрія Крупкіна — х2 у продажах у 2026 році',
+    description:
+      'Живий 2-денний майстермайнд 21–22 квітня. Система продажів, яка працює без твого контролю.',
+    images: ['/og-image.png'],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
