@@ -42,6 +42,54 @@ body {
   .lift:hover { transform: translateY(-3px); }
 }
 
+/* ── CTA animations ────────────────────────────────────────────── */
+.cta-animated {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s;
+  animation: cta-pulse 2.8s ease-in-out infinite;
+  will-change: transform, box-shadow;
+}
+.cta-animated::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.55) 50%,
+    transparent 70%
+  );
+  transform: translateX(-120%);
+  animation: cta-shine 3.2s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+.cta-animated > * { position: relative; z-index: 2; }
+
+@keyframes cta-pulse {
+  0%, 100% { box-shadow: 0 4px 40px rgba(235, 255, 0, 0.45), inset 0 0 0 1px #EBFF00; }
+  50%      { box-shadow: 0 6px 60px rgba(235, 255, 0, 0.75), inset 0 0 0 1px #EBFF00; }
+}
+@keyframes cta-shine {
+  0%   { transform: translateX(-120%); }
+  60%  { transform: translateX(220%); }
+  100% { transform: translateX(220%); }
+}
+
+@media (hover: hover) {
+  .cta-animated:hover {
+    transform: translateY(-2px) scale(1.015);
+  }
+  .cta-animated:active { transform: translateY(0) scale(0.99); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-animated { animation: none; }
+  .cta-animated::before { display: none; }
+}
+
 /* Scale 1920px desktop layout down to fit viewports between lg (1024) and 1920.
    `zoom: calc(...)` is NOT supported — must use fixed numbers per breakpoint. */
 @media (min-width: 1024px) { html { overflow-x: hidden; } }

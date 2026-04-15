@@ -132,7 +132,7 @@ function HeroMobile() {
         <a
           href="#"
           data-register-cta
-          className="mt-6 flex items-center justify-center hover:brightness-95 cursor-pointer"
+          className="cta-animated mt-6 flex items-center justify-center cursor-pointer"
           style={{
             height: 62,
             borderRadius: 100,
@@ -324,7 +324,7 @@ function Hero() {
         <a
           href="#"
           data-register-cta
-          className="absolute flex items-center justify-center hover:brightness-95 cursor-pointer"
+          className="cta-animated absolute flex items-center justify-center cursor-pointer"
           style={{
             left: 1056,
             top: 623,
@@ -1357,7 +1357,7 @@ function SecondCtaMobile() {
       <a
         href="#"
         data-register-cta
-        className="mt-6 flex items-center justify-center hover:brightness-95 cursor-pointer"
+        className="cta-animated mt-6 flex items-center justify-center cursor-pointer"
         style={{
           height: 62,
           borderRadius: 100,
@@ -1471,7 +1471,7 @@ function SecondCtaSection() {
         <a
           href="#"
           data-register-cta
-          className="absolute flex items-center justify-center hover:brightness-95 cursor-pointer"
+          className="cta-animated absolute flex items-center justify-center cursor-pointer"
           style={{
             left: 1056,
             top: 740,
