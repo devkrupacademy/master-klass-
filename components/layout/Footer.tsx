@@ -20,14 +20,11 @@ export function Footer() {
         </div>
 
         <div className="flex items-center gap-5">
-          <a href="#" aria-label="YouTube" className="hover:opacity-80">
+          <a href="https://youtube.com/@andriykrupkin" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="hover:opacity-80">
             <Image src="/icons/icon-youtube.svg" alt="" width={32} height={22} />
           </a>
-          <a href="#" aria-label="Instagram" className="hover:opacity-80">
+          <a href="https://www.instagram.com/krupkin.pro" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:opacity-80">
             <Image src="/icons/icon-instagram.svg" alt="" width={24} height={24} />
-          </a>
-          <a href="#" className="font-sans text-footer text-white/60 hover:text-white underline">
-            Політика
           </a>
         </div>
       </div>
