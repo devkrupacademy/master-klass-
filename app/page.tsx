@@ -577,7 +577,7 @@ function ProgramMobileSection() {
             </div>
 
             <h3
-              className="font-display uppercase mt-4"
+              className="font-display uppercase mt-4 text-left"
               style={{ fontSize: 26, lineHeight: '28px' }}
             >
               {card.title}
