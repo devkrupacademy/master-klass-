@@ -1358,36 +1358,75 @@ function SecondCtaMobile() {
 }
 
 function SecondCtaSection() {
+  const pills = [
+    'Система діагностики відділу продажів',
+    'Інструменти контролю без ручного прослуховування',
+    'ТОП-5 проблем і як їх виправити',
+    'Зрозумієш як побудувати відділ, який продає без тебе.',
+    'Живі розбори реальних дзвінків',
+    'Готова система навчання команди',
+  ];
   return (
     <section id="registration" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <Image
-        src="/images/footer-bg-2.png"
-        alt=""
-        fill
-        sizes="100vw"
-        className="object-cover opacity-50 pointer-events-none hidden md:block"
-      />
-      <div className="relative mx-auto max-w-[1304px] px-6 md:px-10 py-24 md:py-28">
-        <h2 className="font-display text-[44px] md:text-h2 uppercase text-center leading-none tracking-[-0.022em] max-w-[1100px] mx-auto">
+      <div className="relative mx-auto" style={{ width: 1920, height: 730, maxWidth: '100%' }}>
+        {/* Heading */}
+        <h2
+          className="absolute font-display uppercase text-white text-center"
+          style={{ left: 300, top: 60, width: 1320, fontSize: 100, lineHeight: '100px' }}
+        >
           Такий живий формат проводимо раз на кілька місяців
         </h2>
 
-        <p className="mt-8 text-center font-sans text-eyebrow-date text-white/75 max-w-[720px] mx-auto">
+        {/* Subtitle */}
+        <p
+          className="absolute font-sans text-center"
+          style={{ left: 460, top: 260, width: 1000, fontSize: 24, lineHeight: '30px', color: 'rgba(217,217,217,0.75)' }}
+        >
           Цієї весни підприємці оновлюють свої відділи продажів. Приєднуйся.
         </p>
 
-        <div className="mt-12 flex justify-center">
-          <a
-            href="#"
-            className="font-display text-cta uppercase text-black rounded-full px-12 py-6 leading-none hover:brightness-95"
-            style={{
-              background: 'linear-gradient(180deg, #F4FF4A 0%, #EBFF00 50%, #C9DB00 100%)',
-              boxShadow: '0 0 60px rgba(235,255,0,0.35)',
-            }}
-          >
-            Зареєструватись
-          </a>
+        {/* 2 columns of pills */}
+        {pills.slice(0, 3).map((t, i) => (
+          <ForWhomPill key={`l-${i}`} left={338} top={330 + i * 70} height={60} text={t} />
+        ))}
+        {pills.slice(3).map((t, i) => (
+          <ForWhomPill key={`r-${i}`} left={918} top={330 + i * 70} height={60} text={t} />
+        ))}
+
+        {/* Left gray pill */}
+        <div
+          className="absolute"
+          style={{ left: 306, top: 580, width: 709, height: 126, borderRadius: 100, background: 'rgba(107,107,107,0.35)', backdropFilter: 'blur(8px)' }}
+        />
+        <div className="absolute" style={{ left: 290, top: 568, width: 151, height: 151 }}>
+          <Image src="/images/gift-badge.png" alt="" fill sizes="151px" className="object-contain" />
         </div>
+        <div
+          className="absolute font-sans text-white whitespace-pre-line"
+          style={{ left: 455, top: 601, width: 550, fontSize: 20, lineHeight: '28px' }}
+        >
+          Реєструйся протягом <span className="font-semibold">15:00</span>{'\n'}подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
+        </div>
+
+        {/* Right lime CTA */}
+        <a
+          href="#"
+          className="absolute flex items-center justify-center hover:brightness-95"
+          style={{
+            left: 1056,
+            top: 580,
+            width: 554,
+            height: 126,
+            borderRadius: 100,
+            background: 'linear-gradient(180deg, #F4FF4A 0%, #EBFF00 50%, #C9DB00 100%)',
+            border: '1px solid #EBFF00',
+            boxShadow: '0 0 60px rgba(235,255,0,0.35)',
+          }}
+        >
+          <span className="font-display uppercase text-black" style={{ fontSize: 60, lineHeight: 1 }}>
+            зареєструватись
+          </span>
+        </a>
       </div>
     </section>
   );
