@@ -162,7 +162,17 @@ function HeroMobile() {
         </div>
 
         {/* Portrait */}
-        <div className="hero-anim hero-anim-d5 relative mx-auto mt-5" style={{ width: 220, height: 240 }}>
+        <div
+          className="hero-anim hero-anim-d5 relative mx-auto mt-5"
+          style={{
+            width: 220,
+            height: 240,
+            WebkitMaskImage:
+              'linear-gradient(to bottom, #000 0%, #000 75%, rgba(0,0,0,0.5) 90%, transparent 100%)',
+            maskImage:
+              'linear-gradient(to bottom, #000 0%, #000 75%, rgba(0,0,0,0.5) 90%, transparent 100%)',
+          }}
+        >
           <Image
             src="/images/andriy-portrait.png"
             alt="Андрій Крупкін"
@@ -226,7 +236,16 @@ function Hero() {
         {/* Portrait */}
         <ParallaxImage
           className="absolute"
-          style={{ left: 1123, top: 38, width: 540, height: 641 }}
+          style={{
+            left: 1123,
+            top: 38,
+            width: 540,
+            height: 641,
+            WebkitMaskImage:
+              'linear-gradient(to bottom, #000 0%, #000 78%, rgba(0,0,0,0.6) 92%, transparent 100%)',
+            maskImage:
+              'linear-gradient(to bottom, #000 0%, #000 78%, rgba(0,0,0,0.6) 92%, transparent 100%)',
+          }}
           scaleTo={1.08}
         >
           <Image
