@@ -85,13 +85,13 @@ function HeroMobile() {
 
       <div className="relative">
         {/* Eyebrow */}
-        <div className="font-sans text-acid text-center" style={{ fontSize: 13, lineHeight: '15px' }}>
+        <div className="hero-anim hero-anim-d1 font-sans text-acid text-center" style={{ fontSize: 13, lineHeight: '15px' }}>
           Майстермайнд Андрія Крупкіна
         </div>
 
         {/* H1 */}
         <h1
-          className="mt-4 font-display uppercase text-white text-center"
+          className="hero-anim hero-anim-d2 mt-4 font-display uppercase text-white text-center"
           style={{ fontSize: 26, lineHeight: '26px', letterSpacing: 0 }}
         >
           Як зробити <span className="text-acid">х2 у продажах у 2026 році</span> з сильною командою продажів
@@ -99,14 +99,14 @@ function HeroMobile() {
 
         {/* Subtitle */}
         <p
-          className="mt-4 font-sans text-center mx-auto"
+          className="hero-anim hero-anim-d3 mt-4 font-sans text-center mx-auto"
           style={{ maxWidth: 335, fontSize: 13, lineHeight: '17px', color: 'rgba(217,217,217,0.7)' }}
         >
           За 2 вечора розберемо ТОП-5 проблем вашого відділу продажу та систему, яка працює без вашого контролю
         </p>
 
         {/* Portrait */}
-        <div className="relative mx-auto mt-4" style={{ width: 272, height: 300 }}>
+        <div className="hero-anim hero-anim-d3 relative mx-auto mt-4" style={{ width: 272, height: 300 }}>
           <Image
             src="/images/andriy-portrait.png"
             alt="Андрій Крупкін"
@@ -118,7 +118,7 @@ function HeroMobile() {
         </div>
 
         {/* 3 bullet checks */}
-        <ul className="mt-6 space-y-3">
+        <ul className="hero-anim hero-anim-d4 mt-6 space-y-3">
           {HERO_CHECKS.map((t) => (
             <li key={t} className="flex items-start gap-3">
               <div className="relative shrink-0" style={{ width: 28, height: 28 }}>
@@ -133,7 +133,7 @@ function HeroMobile() {
         <a
           href="#"
           data-register-cta
-          className="cta-animated mt-6 flex items-center justify-center cursor-pointer"
+          className="hero-anim hero-anim-d5 cta-animated mt-6 flex items-center justify-center cursor-pointer"
           style={{
             height: 62,
             borderRadius: 100,
@@ -149,14 +149,14 @@ function HeroMobile() {
 
         {/* Meta */}
         <div
-          className="mt-4 font-sans text-center"
+          className="hero-anim hero-anim-d6 mt-4 font-sans text-center"
           style={{ fontSize: 11, lineHeight: '13px', color: 'rgba(217,217,217,1)' }}
         >
           Участь безкоштовна · Zoom-формат · Кількість обмежена
         </div>
 
         {/* Gift + gray pill */}
-        <div className="mt-5 relative" style={{ height: 78 }}>
+        <div className="hero-anim hero-anim-d6 mt-5 relative" style={{ height: 78 }}>
           <div
             className="absolute inset-0"
             style={{
@@ -231,7 +231,7 @@ function Hero() {
 
         {/* Eyebrow */}
         <div
-          className="absolute font-sans text-acid"
+          className="hero-anim hero-anim-d1 absolute font-sans text-acid"
           style={{ left: 306, top: 38, fontSize: 24, lineHeight: '24px' }}
         >
           Майстермайнд Андрія Крупкіна
@@ -239,7 +239,7 @@ function Hero() {
 
         {/* H1 */}
         <h1
-          className="absolute font-display uppercase text-white"
+          className="hero-anim hero-anim-d2 absolute font-display uppercase text-white"
           style={{
             left: 303,
             top: 85,
@@ -255,7 +255,7 @@ function Hero() {
 
         {/* Subtitle */}
         <p
-          className="absolute font-sans"
+          className="hero-anim hero-anim-d3 absolute font-sans"
           style={{
             left: 305,
             top: 332,
@@ -285,7 +285,7 @@ function Hero() {
 
         {/* 3-line bullet text */}
         <div
-          className="absolute font-sans text-white whitespace-pre-line"
+          className="hero-anim hero-anim-d4 absolute font-sans text-white whitespace-pre-line"
           style={{ left: 372, top: 450, width: 820, fontSize: 24, lineHeight: '41px' }}
         >
           {'Зрозумієш де саме твоя команда зливає угоди\nБез найму нових людей і нових витрат на рекламу\nПерші зміни вже за 2 тижні'}
@@ -293,7 +293,7 @@ function Hero() {
 
         {/* Left pill (gray semi-transparent) — 709×126 at x=306 y=728 */}
         <div
-          className="absolute"
+          className="hero-anim hero-anim-d5 absolute"
           style={{
             left: 306,
             top: 623,
@@ -307,7 +307,7 @@ function Hero() {
 
         {/* Gift badge — overlaps left edge of gray pill */}
         <div
-          className="absolute"
+          className="hero-anim hero-anim-d5 absolute"
           style={{ left: 290, top: 611, width: 151, height: 151 }}
         >
           <Image src="/images/gift-badge.png" alt="" fill sizes="151px" className="object-contain" />
@@ -315,7 +315,7 @@ function Hero() {
 
         {/* Gray pill text */}
         <div
-          className="absolute font-sans text-white whitespace-pre-line"
+          className="hero-anim hero-anim-d5 absolute font-sans text-white whitespace-pre-line"
           style={{ left: 455, top: 644, width: 550, fontSize: 20, lineHeight: '28px' }}
         >
           Реєструйся протягом <Countdown className="font-semibold" />{'\n'}подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
@@ -325,7 +325,7 @@ function Hero() {
         <a
           href="#"
           data-register-cta
-          className="cta-animated absolute flex items-center justify-center cursor-pointer"
+          className="hero-anim hero-anim-d6 cta-animated absolute flex items-center justify-center cursor-pointer"
           style={{
             left: 1056,
             top: 623,
@@ -347,7 +347,7 @@ function Hero() {
 
         {/* Footer meta */}
         <div
-          className="absolute font-sans text-center"
+          className="hero-anim hero-anim-d6 absolute font-sans text-center"
           style={{
             left: 560,
             top: 774,

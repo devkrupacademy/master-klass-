@@ -18,6 +18,26 @@ body {
   color: #fff;
 }
 
+/* ── Hero entry animation (runs on load) ───────────────────────── */
+@keyframes hero-in {
+  0%   { opacity: 0; transform: translate3d(0, 24px, 0); }
+  100% { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+.hero-anim {
+  opacity: 0;
+  animation: hero-in 0.85s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  will-change: opacity, transform;
+}
+.hero-anim-d1 { animation-delay: 0.05s; }
+.hero-anim-d2 { animation-delay: 0.18s; }
+.hero-anim-d3 { animation-delay: 0.32s; }
+.hero-anim-d4 { animation-delay: 0.46s; }
+.hero-anim-d5 { animation-delay: 0.60s; }
+.hero-anim-d6 { animation-delay: 0.74s; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-anim { opacity: 1; animation: none; }
+}
+
 /* ── Scroll reveal (IntersectionObserver-driven) ───────────────── */
 .reveal {
   opacity: 0;
