@@ -1368,7 +1368,7 @@ function SecondCtaSection() {
   ];
   return (
     <section id="registration" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1920, height: 730, maxWidth: '100%' }}>
+      <div className="relative mx-auto" style={{ width: 1920, height: 920, maxWidth: '100%' }}>
         {/* Heading */}
         <h2
           className="absolute font-display uppercase text-white text-center"
@@ -1385,25 +1385,42 @@ function SecondCtaSection() {
           Цієї весни підприємці оновлюють свої відділи продажів. Приєднуйся.
         </p>
 
-        {/* 2 columns of pills */}
-        {pills.slice(0, 3).map((t, i) => (
-          <ForWhomPill key={`l-${i}`} left={338} top={330 + i * 70} height={60} text={t} />
-        ))}
-        {pills.slice(3).map((t, i) => (
-          <ForWhomPill key={`r-${i}`} left={918} top={330 + i * 70} height={60} text={t} />
-        ))}
+        {/* Pills inside gradient container — same as ResultsSection */}
+        <div
+          className="absolute overflow-hidden"
+          style={{ left: 300, top: 330, width: 1311, height: 364, borderRadius: 40, background: '#000' }}
+        >
+          <div
+            className="absolute pointer-events-none"
+            style={{ left: -388, top: -89, width: 1422, height: 397, borderRadius: '50%', background: '#EBFF00', filter: 'blur(120px)', opacity: 0.22 }}
+          />
+          <div
+            className="absolute pointer-events-none"
+            style={{ left: 60, top: 187, width: 1424, height: 539, borderRadius: '50%', background: '#EBFF00', filter: 'blur(120px)', opacity: 0.18 }}
+          />
+          <div
+            className="absolute pointer-events-none"
+            style={{ left: -323, top: 138, width: 981, height: 544, borderRadius: '50%', background: '#ffffff', filter: 'blur(140px)', opacity: 0.12 }}
+          />
+          {pills.slice(0, 3).map((t, i) => (
+            <ForWhomPill key={`l-${i}`} left={38} top={47 + i * 94} height={82} text={t} />
+          ))}
+          {pills.slice(3).map((t, i) => (
+            <ForWhomPill key={`r-${i}`} left={621} top={47 + i * 94} height={82} text={t} />
+          ))}
+        </div>
 
         {/* Left gray pill */}
         <div
           className="absolute"
-          style={{ left: 306, top: 580, width: 709, height: 126, borderRadius: 100, background: 'rgba(107,107,107,0.35)', backdropFilter: 'blur(8px)' }}
+          style={{ left: 306, top: 740, width: 709, height: 126, borderRadius: 100, background: 'rgba(107,107,107,0.35)', backdropFilter: 'blur(8px)' }}
         />
-        <div className="absolute" style={{ left: 290, top: 568, width: 151, height: 151 }}>
+        <div className="absolute" style={{ left: 290, top: 728, width: 151, height: 151 }}>
           <Image src="/images/gift-badge.png" alt="" fill sizes="151px" className="object-contain" />
         </div>
         <div
           className="absolute font-sans text-white whitespace-pre-line"
-          style={{ left: 455, top: 601, width: 550, fontSize: 20, lineHeight: '28px' }}
+          style={{ left: 455, top: 761, width: 550, fontSize: 20, lineHeight: '28px' }}
         >
           Реєструйся протягом <span className="font-semibold">15:00</span>{'\n'}подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
         </div>
@@ -1414,7 +1431,7 @@ function SecondCtaSection() {
           className="absolute flex items-center justify-center hover:brightness-95"
           style={{
             left: 1056,
-            top: 580,
+            top: 740,
             width: 554,
             height: 126,
             borderRadius: 100,
