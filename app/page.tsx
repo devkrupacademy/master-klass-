@@ -624,7 +624,7 @@ function ProgramMobileSection() {
 
 // ─── 4. PROGRAM ───
 function ProgramSection() {
-  const cardHeights = [787, 414, 360];
+  const cardHeights = [620, 380, 340];
   let currentTop = 150; // start after heading (heading top=0, h=100, +50 gap)
   const cardTops = cardHeights.map((h, i) => {
     const t = currentTop;
@@ -702,8 +702,8 @@ function ProgramSection() {
                 left: 98,
                 top: 150,
                 right: 80,
-                fontSize: 80,
-                lineHeight: '72px',
+                fontSize: 64,
+                lineHeight: '58px',
                 color: '#000',
                 letterSpacing: 0,
               }}
@@ -712,7 +712,7 @@ function ProgramSection() {
             </h3>
 
             {/* Bullets */}
-            <ul className="absolute" style={{ left: 98, top: 264, right: 60 }}>
+            <ul className="absolute" style={{ left: 98, top: 230, right: 60 }}>
               {p.bullets.map((b) => (
                 <li key={b} className="flex items-start gap-3 mb-3">
                   <span
