@@ -195,6 +195,21 @@ function Hero() {
         className="relative mx-auto"
         style={{ width: 1920, height: 889, maxWidth: '100%' }}
       >
+        {/* Background pattern — Figma node 1:1724, x=639 y=88 1304x869 */}
+        <div
+          className="absolute pointer-events-none"
+          style={{ left: 639, top: -17, width: 1304, height: 869, zIndex: 0 }}
+        >
+          <Image
+            src="/images/hero-bg-pattern.png"
+            alt=""
+            fill
+            sizes="1304px"
+            priority
+            className="object-cover"
+          />
+        </div>
+
         {/* Portrait */}
         <div
           className="absolute"
