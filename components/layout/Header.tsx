@@ -1,5 +1,3 @@
-import { Countdown } from '@/components/Countdown';
-
 export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[rgba(255,255,255,0.1)] backdrop-blur-md">
@@ -16,8 +14,6 @@ export function Header() {
             <span>21–22 квітня</span>
             <span className="w-[5px] h-[5px] rounded-full bg-acid inline-block" />
             <span>о 19:00</span>
-            <span className="w-[5px] h-[5px] rounded-full bg-acid inline-block" />
-            <Countdown className="text-acid font-semibold tabular-nums" />
           </div>
         </div>
       </div>
@@ -40,8 +36,6 @@ export function Header() {
           <span>21–22 квітня</span>
           <span className="w-[9px] h-[9px] rounded-full bg-acid inline-block" />
           <span>о 19:00</span>
-          <span className="w-[9px] h-[9px] rounded-full bg-acid inline-block" />
-          <Countdown className="text-acid font-semibold tabular-nums" />
         </div>
 
         {/* Right CTA pill — lime border, transparent bg, white text */}
