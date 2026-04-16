@@ -192,17 +192,6 @@ function HeroMobile() {
 function Hero() {
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
-      {/* Lime radial glow that spans y=593..889 in Figma */}
-      <div
-        className="absolute left-0 right-0 pointer-events-none"
-        style={{
-          top: 488,
-          height: 296,
-          background:
-            'radial-gradient(ellipse 60% 100% at 50% 50%, rgba(235,255,0,0.25) 0%, rgba(235,255,0,0.08) 40%, transparent 75%)',
-        }}
-      />
-
       <div
         className="relative mx-auto"
         style={{ width: 1920, height: 889, maxWidth: '100%' }}
