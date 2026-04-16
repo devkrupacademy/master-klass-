@@ -92,33 +92,9 @@ function HeroMobile() {
       />
 
       <div className="relative">
-        {/* Top row: brand logo + status pill */}
-        <div className="hero-anim hero-anim-d1 flex items-center justify-between">
-          <div
-            className="font-sans uppercase font-bold text-white"
-            style={{ fontSize: 10, lineHeight: '11px', letterSpacing: '0.02em' }}
-          >
-            Академія продажів<br />Андрія Крупкіна
-          </div>
-          <div
-            className="flex items-center justify-center font-sans text-white/90"
-            style={{
-              height: 21,
-              padding: '0 12px',
-              borderRadius: 100,
-              background: 'rgba(107,107,107,0.35)',
-              fontSize: 11,
-              lineHeight: 1,
-              whiteSpace: 'nowrap',
-            }}
-          >
-            2 дні <span className="text-acid mx-1.5">●</span> 21–22 квітня <span className="text-acid mx-1.5">●</span> о 19:00
-          </div>
-        </div>
-
         {/* Eyebrow */}
         <div
-          className="hero-anim hero-anim-d1 font-sans text-acid text-center mt-7"
+          className="hero-anim hero-anim-d1 font-sans text-acid text-center"
           style={{ fontSize: 15, lineHeight: '15px' }}
         >
           Майстермайнд Андрія Крупкіна
@@ -129,19 +105,19 @@ function HeroMobile() {
           className="hero-anim hero-anim-d2 mt-3 font-display uppercase text-white text-center"
           style={{ letterSpacing: 0 }}
         >
-          <span style={{ fontSize: 30, lineHeight: '32px', display: 'block' }}>Як власнику бізнесу</span>
-          <span className="text-acid" style={{ fontSize: 30, lineHeight: '32px', display: 'block' }}>
+          <span style={{ fontSize: 38, lineHeight: '38px', display: 'block' }}>Як власнику бізнесу</span>
+          <span className="text-acid" style={{ fontSize: 38, lineHeight: '38px', display: 'block' }}>
             зробити х2 у 2026 році
           </span>
-          <span style={{ fontSize: 24, lineHeight: '26px', display: 'block' }}>
+          <span style={{ fontSize: 30, lineHeight: '32px', display: 'block' }}>
             з сильною командою продажів
           </span>
         </h1>
 
         {/* Subtitle */}
         <p
-          className="hero-anim hero-anim-d3 mt-4 font-sans text-center mx-auto"
-          style={{ maxWidth: 335, fontSize: 14, lineHeight: '17px', color: 'rgb(217,217,217)' }}
+          className="hero-anim hero-anim-d3 mt-3 font-sans text-center mx-auto"
+          style={{ maxWidth: 335, fontSize: 16, lineHeight: '17px', color: 'rgb(217,217,217)' }}
         >
           За 2 вечора розберемо ТОП-5 проблем вашого відділу продажу та систему, яка працює без вашого контролю
         </p>
