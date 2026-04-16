@@ -627,7 +627,7 @@ function ProgramMobileSection() {
             className="bg-acid text-black"
             style={{ borderRadius: 20, padding: '20px' }}
           >
-            <div className="flex flex-wrap items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2" style={{ marginLeft: -12 }}>
               <span
                 className="font-sans bg-white text-black rounded-full inline-flex items-center"
                 style={{ height: 22, padding: '0 12px', fontSize: 11, lineHeight: 1 }}
