@@ -5,7 +5,6 @@ import { MobileStickyCta } from '@/components/MobileStickyCta';
 import { Reveal } from '@/components/Reveal';
 import { Countdown } from '@/components/Countdown';
 import { ParallaxImage } from '@/components/ui/ParallaxImage';
-import { MagneticCTA } from '@/components/ui/MagneticCTA';
 import { TestimonialsSlider } from '@/components/sections/TestimonialsSlider';
 
 // ─── Real copy extracted from Figma node 1:1723 ───
@@ -332,7 +331,9 @@ function Hero() {
         </div>
 
         {/* Right pill (lime gradient) — 554×126 at x=1056 y=728 */}
-        <MagneticCTA
+        <a
+          href="#"
+          data-register-cta
           className="hero-anim hero-anim-d6 cta-animated absolute flex items-center justify-center cursor-pointer"
           style={{
             left: 1056,
@@ -351,7 +352,7 @@ function Hero() {
           >
             зареєструватись
           </span>
-        </MagneticCTA>
+        </a>
 
         {/* Footer meta */}
         <div
