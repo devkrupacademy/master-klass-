@@ -655,14 +655,12 @@ function ProgramMobileSection() {
 
             <ul className="mt-4 space-y-3">
               {card.bullets.map((b, j) => (
-                <li key={j} className="flex gap-2 items-start">
-                  <span
-                    className="inline-block rounded-full bg-black shrink-0"
-                    style={{ width: 6, height: 6, marginTop: 6 }}
-                  />
-                  <span className="font-sans block" style={{ fontSize: 14, lineHeight: '18px' }}>
-                    {b}
-                  </span>
+                <li
+                  key={j}
+                  className="font-sans"
+                  style={{ fontSize: 14, lineHeight: '18px' }}
+                >
+                  {b}
                 </li>
               ))}
             </ul>
