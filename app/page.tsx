@@ -92,29 +92,62 @@ function HeroMobile() {
       />
 
       <div className="relative">
+        {/* Top row: brand logo + status pill */}
+        <div className="hero-anim hero-anim-d1 flex items-center justify-between">
+          <div
+            className="font-sans uppercase font-bold text-white"
+            style={{ fontSize: 10, lineHeight: '11px', letterSpacing: '0.02em' }}
+          >
+            Академія продажів<br />Андрія Крупкіна
+          </div>
+          <div
+            className="flex items-center justify-center font-sans text-white/90"
+            style={{
+              height: 21,
+              padding: '0 12px',
+              borderRadius: 100,
+              background: 'rgba(107,107,107,0.35)',
+              fontSize: 11,
+              lineHeight: 1,
+              whiteSpace: 'nowrap',
+            }}
+          >
+            2 дні <span className="text-acid mx-1.5">●</span> 21–22 квітня <span className="text-acid mx-1.5">●</span> о 19:00
+          </div>
+        </div>
+
         {/* Eyebrow */}
-        <div className="hero-anim hero-anim-d1 font-sans text-acid text-center" style={{ fontSize: 13, lineHeight: '15px' }}>
+        <div
+          className="hero-anim hero-anim-d1 font-sans text-acid text-center mt-7"
+          style={{ fontSize: 15, lineHeight: '15px' }}
+        >
           Майстермайнд Андрія Крупкіна
         </div>
 
         {/* H1 */}
         <h1
-          className="hero-anim hero-anim-d2 mt-4 font-display uppercase text-white text-center"
-          style={{ fontSize: 26, lineHeight: '26px', letterSpacing: 0 }}
+          className="hero-anim hero-anim-d2 mt-3 font-display uppercase text-white text-center"
+          style={{ letterSpacing: 0 }}
         >
-          Як зробити <span className="text-acid">х2 у продажах у 2026 році</span> з сильною командою продажів
+          <span style={{ fontSize: 30, lineHeight: '32px', display: 'block' }}>Як власнику бізнесу</span>
+          <span className="text-acid" style={{ fontSize: 30, lineHeight: '32px', display: 'block' }}>
+            зробити х2 у 2026 році
+          </span>
+          <span style={{ fontSize: 24, lineHeight: '26px', display: 'block' }}>
+            з сильною командою продажів
+          </span>
         </h1>
 
         {/* Subtitle */}
         <p
           className="hero-anim hero-anim-d3 mt-4 font-sans text-center mx-auto"
-          style={{ maxWidth: 335, fontSize: 13, lineHeight: '17px', color: 'rgba(217,217,217,0.7)' }}
+          style={{ maxWidth: 335, fontSize: 14, lineHeight: '17px', color: 'rgb(217,217,217)' }}
         >
           За 2 вечора розберемо ТОП-5 проблем вашого відділу продажу та систему, яка працює без вашого контролю
         </p>
 
         {/* Portrait */}
-        <div className="hero-anim hero-anim-d3 relative mx-auto mt-4" style={{ width: 272, height: 300 }}>
+        <div className="hero-anim hero-anim-d3 relative mx-auto mt-4" style={{ width: 272, height: 323 }}>
           <Image
             src="/images/andriy-portrait.png"
             alt="Андрій Крупкін"
@@ -126,13 +159,13 @@ function HeroMobile() {
         </div>
 
         {/* 3 bullet checks */}
-        <ul className="hero-anim hero-anim-d4 mt-6 space-y-3">
+        <ul className="hero-anim hero-anim-d4 mt-6 space-y-4">
           {HERO_CHECKS.map((t) => (
             <li key={t} className="flex items-start gap-3">
-              <div className="relative shrink-0" style={{ width: 28, height: 28 }}>
-                <Image src="/images/check-sparkle-green.png" alt="" fill sizes="28px" className="object-contain" />
+              <div className="relative shrink-0" style={{ width: 40, height: 32 }}>
+                <Image src="/images/check-sparkle-green.png" alt="" fill sizes="40px" className="object-contain" />
               </div>
-              <span className="font-sans text-white" style={{ fontSize: 14, lineHeight: '18px' }}>{t}</span>
+              <span className="font-sans text-white" style={{ fontSize: 14, lineHeight: '20px' }}>{t}</span>
             </li>
           ))}
         </ul>
