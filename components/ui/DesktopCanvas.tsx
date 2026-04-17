@@ -26,7 +26,7 @@ export function DesktopCanvas({
   }, [w]);
 
   return (
-    <div ref={ref} className="w-full overflow-hidden" style={{ height: h * scale }}>
+    <div ref={ref} className="overflow-hidden mx-auto" style={{ height: h * scale, maxWidth: w, width: '100%' }}>
       <div
         className="relative"
         style={{

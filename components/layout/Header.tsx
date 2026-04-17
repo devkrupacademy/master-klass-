@@ -37,7 +37,7 @@ export function Header() {
       </div>
 
       {/* Desktop (≥lg) */}
-      <div ref={ref} className="hidden lg:block w-full overflow-hidden" style={{ height: 79 * scale }}>
+      <div ref={ref} className="hidden lg:block overflow-hidden mx-auto" style={{ height: 79 * scale, maxWidth: 1440, width: '100%' }}>
         <div
           className="relative"
           style={{
