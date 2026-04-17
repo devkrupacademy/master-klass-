@@ -230,7 +230,7 @@ function HeroMobile() {
             className="absolute font-sans text-white"
             style={{ left: 86, right: 14, top: 12, fontSize: 12, lineHeight: '16px' }}
           >
-            Реєструйся протягом <Countdown className="font-semibold" /> подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
+            Реєструйся протягом <Countdown className="font-semibold" /> хв, та отримай в подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
           </div>
         </div>
         </div>
@@ -367,7 +367,7 @@ function Hero() {
           className="hero-anim hero-anim-d5 absolute font-sans text-white whitespace-pre-line"
           style={{ left: 341, top: 483, width: 413, fontSize: 15, lineHeight: '21px' }}
         >
-          Реєструйся протягом <Countdown className="font-semibold" />{'\n'}подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
+          Реєструйся протягом <Countdown className="font-semibold" /> хв,{'\n'}та отримай в подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
         </div>
 
         {/* Right pill (lime gradient) */}
@@ -1308,7 +1308,7 @@ function SecondCtaMobile() {
           className="absolute font-sans text-white"
           style={{ left: 86, right: 14, top: 12, fontSize: 12, lineHeight: '16px' }}
         >
-          Реєструйся протягом <Countdown className="font-semibold" /> подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
+          Реєструйся протягом <Countdown className="font-semibold" /> хв, та отримай в подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
         </div>
       </div>
     </section>
@@ -1376,7 +1376,7 @@ function SecondCtaSection() {
           className="absolute font-sans text-white whitespace-pre-line"
           style={{ left: 341, top: 571, width: 413, fontSize: 15, lineHeight: '21px' }}
         >
-          Реєструйся протягом <Countdown className="font-semibold" />{'\n'}подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
+          Реєструйся протягом <Countdown className="font-semibold" /> хв,{'\n'}та отримай в подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
         </div>
 
         <a
