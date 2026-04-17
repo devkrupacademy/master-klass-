@@ -239,24 +239,24 @@ function HeroMobile() {
   );
 }
 
-// ─── 1. HERO — pixel-perfect absolute layout on 1920 canvas ───
+// ─── 1. HERO — pixel-perfect absolute layout on 1440 canvas ───
 function Hero() {
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
       <div
         className="relative mx-auto"
-        style={{ width: 1920, height: 889, maxWidth: '100%' }}
+        style={{ width: 1440, height: 667, maxWidth: '100%' }}
       >
-        {/* Background pattern — Figma node 1:1724, x=639 y=88 1304x869 */}
+        {/* Background pattern */}
         <div
           className="absolute pointer-events-none"
-          style={{ left: 639, top: -17, width: 1304, height: 869, zIndex: 0 }}
+          style={{ left: 479, top: -13, width: 978, height: 652, zIndex: 0 }}
         >
           <Image
             src="/images/hero-bg-pattern.png"
             alt=""
             fill
-            sizes="1304px"
+            sizes="978px"
             priority
             className="object-cover"
           />
@@ -265,14 +265,14 @@ function Hero() {
         {/* Portrait */}
         <ParallaxImage
           className="absolute"
-          style={{ left: 1123, top: 38, width: 540, height: 641 }}
+          style={{ left: 842, top: 29, width: 405, height: 481 }}
           scaleTo={1.08}
         >
           <Image
             src="/images/andriy-portrait.png"
             alt="Андрій Крупкін"
             fill
-            sizes="540px"
+            sizes="405px"
             priority
             className="object-cover"
           />
@@ -281,7 +281,7 @@ function Hero() {
         {/* Eyebrow */}
         <div
           className="hero-anim hero-anim-d1 absolute font-sans text-acid"
-          style={{ left: 306, top: 38, fontSize: 24, lineHeight: '24px' }}
+          style={{ left: 230, top: 29, fontSize: 18, lineHeight: '18px' }}
         >
           Майстермайнд Андрія Крупкіна
         </div>
@@ -290,11 +290,11 @@ function Hero() {
         <h1
           className="hero-anim hero-anim-d2 absolute font-display uppercase text-white"
           style={{
-            left: 303,
-            top: 85,
-            width: 900,
-            fontSize: 83,
-            lineHeight: '83px',
+            left: 227,
+            top: 64,
+            width: 675,
+            fontSize: 62,
+            lineHeight: '62px',
             letterSpacing: 0,
             whiteSpace: 'pre-line',
           }}
@@ -306,11 +306,11 @@ function Hero() {
         <p
           className="hero-anim hero-anim-d3 absolute font-sans"
           style={{
-            left: 305,
-            top: 332,
-            width: 612,
-            fontSize: 24,
-            lineHeight: '30px',
+            left: 229,
+            top: 249,
+            width: 459,
+            fontSize: 18,
+            lineHeight: '23px',
             color: 'rgba(217,217,217,0.6)',
             fontWeight: 500,
           }}
@@ -320,13 +320,13 @@ function Hero() {
         </p>
 
         {/* 3 sparkle checks */}
-        {[442, 483, 522].map((y) => (
-          <div key={y} className="absolute" style={{ left: 295, top: y, width: 60, height: 40 }}>
+        {[332, 362, 392].map((y) => (
+          <div key={y} className="absolute" style={{ left: 221, top: y, width: 45, height: 30 }}>
             <Image
               src="/images/check-sparkle-green.png"
               alt=""
               fill
-              sizes="60px"
+              sizes="45px"
               className="object-contain"
             />
           </div>
@@ -335,20 +335,20 @@ function Hero() {
         {/* 3-line bullet text */}
         <div
           className="hero-anim hero-anim-d4 absolute font-sans text-white whitespace-pre-line"
-          style={{ left: 372, top: 450, width: 820, fontSize: 24, lineHeight: '41px' }}
+          style={{ left: 279, top: 338, width: 615, fontSize: 18, lineHeight: '31px' }}
         >
           {'Зрозумієш де саме твоя команда зливає угоди\nБез найму нових людей і нових витрат на рекламу\nПерші зміни вже за 2 тижні'}
         </div>
 
-        {/* Left pill (gray semi-transparent) — 709×126 at x=306 y=728 */}
+        {/* Left pill (gray semi-transparent) */}
         <div
           className="hero-anim hero-anim-d5 absolute"
           style={{
-            left: 306,
-            top: 623,
-            width: 709,
-            height: 126,
-            borderRadius: 100,
+            left: 230,
+            top: 467,
+            width: 532,
+            height: 95,
+            borderRadius: 75,
             background: 'rgba(107,107,107,0.35)',
             backdropFilter: 'blur(8px)',
           }}
@@ -357,30 +357,30 @@ function Hero() {
         {/* Gift badge — overlaps left edge of gray pill */}
         <div
           className="hero-anim hero-anim-d5 absolute"
-          style={{ left: 290, top: 611, width: 151, height: 151 }}
+          style={{ left: 218, top: 458, width: 113, height: 113 }}
         >
-          <Image src="/images/gift-badge.png" alt="" fill sizes="151px" className="object-contain" />
+          <Image src="/images/gift-badge.png" alt="" fill sizes="113px" className="object-contain" />
         </div>
 
         {/* Gray pill text */}
         <div
           className="hero-anim hero-anim-d5 absolute font-sans text-white whitespace-pre-line"
-          style={{ left: 455, top: 644, width: 550, fontSize: 20, lineHeight: '28px' }}
+          style={{ left: 341, top: 483, width: 413, fontSize: 15, lineHeight: '21px' }}
         >
           Реєструйся протягом <Countdown className="font-semibold" />{'\n'}подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
         </div>
 
-        {/* Right pill (lime gradient) — 554×126 at x=1056 y=728 */}
+        {/* Right pill (lime gradient) */}
         <a
           href="#"
           data-register-cta
           className="hero-anim hero-anim-d6 cta-animated absolute flex items-center justify-center cursor-pointer"
           style={{
-            left: 1056,
-            top: 623,
-            width: 554,
-            height: 126,
-            borderRadius: 100,
+            left: 792,
+            top: 467,
+            width: 416,
+            height: 95,
+            borderRadius: 75,
             background:
               'linear-gradient(180deg, #F4FF4A 0%, #EBFF00 50%, #C9DB00 100%)',
             boxShadow: '0 4px 50px #EBFF00, inset 0 0 0 1px #EBFF00',
@@ -388,7 +388,7 @@ function Hero() {
         >
           <span
             className="font-display uppercase text-black"
-            style={{ fontSize: 60, lineHeight: 1, display: 'inline-block', transform: 'translateY(0.08em)' }}
+            style={{ fontSize: 45, lineHeight: 1, display: 'inline-block', transform: 'translateY(0.08em)' }}
           >
             зареєструватись
           </span>
@@ -398,11 +398,11 @@ function Hero() {
         <div
           className="hero-anim hero-anim-d6 absolute font-sans text-center"
           style={{
-            left: 560,
-            top: 774,
-            width: 800,
-            fontSize: 24,
-            lineHeight: '24px',
+            left: 420,
+            top: 581,
+            width: 600,
+            fontSize: 18,
+            lineHeight: '18px',
             color: 'rgba(217,217,217,1)',
           }}
         >
@@ -421,19 +421,19 @@ function ForWhomPill({ left, top, height, text }: { left: number; top: number; h
       style={{
         left,
         top,
-        width: 570,
+        width: 428,
         height,
-        borderRadius: 25.6,
+        borderRadius: 19,
         background: 'rgba(255,255,255,0.06)',
         backdropFilter: 'blur(8px)',
       }}
     >
-      <div className="absolute" style={{ left: 17, top: 19, width: 20, height: 20 }}>
-        <Image src="/icons/icon-check.svg" alt="" width={20} height={20} />
+      <div className="absolute" style={{ left: 13, top: 14, width: 15, height: 15 }}>
+        <Image src="/icons/icon-check.svg" alt="" width={15} height={15} />
       </div>
       <div
         className="absolute font-sans"
-        style={{ left: 49, top: 17, right: 17, fontSize: 20, lineHeight: '24px', color: '#FAF8F5' }}
+        style={{ left: 37, top: 13, right: 13, fontSize: 15, lineHeight: '18px', color: '#FAF8F5' }}
       >
         {text}
       </div>
@@ -485,25 +485,24 @@ function ForWhomMobile() {
 }
 
 function ForWhomSection() {
-  // Pill y-offsets (inside 475px panel, панель top=148 у секції)
-  const leftYs = [47, 141, 235, 329]; // 4 pills, ~94px step, panel-relative
-  const leftHeights = [82, 82, 82, 82];
-  const rightYs = [47, 141, 233, 350];
-  const rightHeights = [82, 80, 105, 82];
+  const leftYs = [35, 106, 176, 247];
+  const leftHeights = [62, 62, 62, 62];
+  const rightYs = [35, 106, 175, 263];
+  const rightHeights = [62, 60, 79, 62];
 
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1920, height: 740, maxWidth: '100%' }}>
+      <div className="relative mx-auto" style={{ width: 1440, height: 555, maxWidth: '100%' }}>
         {/* Heading */}
         <h2
           className="absolute font-display uppercase text-white"
           style={{
-            left: 300,
-            top: 80,
-            width: 1320,
+            left: 225,
+            top: 60,
+            width: 990,
             textAlign: 'center',
-            fontSize: 100,
-            lineHeight: '100px',
+            fontSize: 75,
+            lineHeight: '75px',
             letterSpacing: 0,
           }}
         >
@@ -513,59 +512,54 @@ function ForWhomSection() {
         {/* Gradient panel */}
         <div
           className="absolute overflow-hidden"
-          style={{ left: 300, top: 228, width: 1311, height: 475, borderRadius: 40, background: '#000' }}
+          style={{ left: 225, top: 171, width: 983, height: 356, borderRadius: 30, background: '#000' }}
         >
-          {/* Lime glow top-left */}
           <div
             className="absolute pointer-events-none"
             style={{
-              left: -388,
-              top: -117,
-              width: 1422,
-              height: 519,
+              left: -291,
+              top: -88,
+              width: 1067,
+              height: 389,
               borderRadius: '50%',
               background: '#EBFF00',
-              filter: 'blur(120px)',
+              filter: 'blur(90px)',
               opacity: 0.22,
             }}
           />
-          {/* Lime glow bottom-right */}
           <div
             className="absolute pointer-events-none"
             style={{
-              left: 60,
-              top: 245,
-              width: 1424,
-              height: 704,
+              left: 45,
+              top: 184,
+              width: 1068,
+              height: 528,
               borderRadius: '50%',
               background: '#EBFF00',
-              filter: 'blur(120px)',
+              filter: 'blur(90px)',
               opacity: 0.18,
             }}
           />
-          {/* White glow middle */}
           <div
             className="absolute pointer-events-none"
             style={{
-              left: -323,
-              top: 181,
-              width: 981,
-              height: 710,
+              left: -242,
+              top: 136,
+              width: 736,
+              height: 533,
               borderRadius: '50%',
               background: '#ffffff',
-              filter: 'blur(140px)',
+              filter: 'blur(105px)',
               opacity: 0.12,
             }}
           />
 
-          {/* Left column pills (panel-relative: x=38) */}
           {FOR_WHOM_LEFT.map((t, i) => (
-            <ForWhomPill key={t} left={38} top={leftYs[i]} height={leftHeights[i]} text={t} />
+            <ForWhomPill key={t} left={29} top={leftYs[i]} height={leftHeights[i]} text={t} />
           ))}
 
-          {/* Right column pills (panel-relative: x=621) */}
           {FOR_WHOM_RIGHT.map((t, i) => (
-            <ForWhomPill key={t} left={621} top={rightYs[i]} height={rightHeights[i]} text={t} />
+            <ForWhomPill key={t} left={466} top={rightYs[i]} height={rightHeights[i]} text={t} />
           ))}
         </div>
       </div>
@@ -590,15 +584,15 @@ function MethodologyMobile() {
 function Methodology() {
   return (
     <section className="hidden lg:block relative bg-black text-white">
-      <div className="relative mx-auto" style={{ width: 1920, height: 192, maxWidth: '100%' }}>
+      <div className="relative mx-auto" style={{ width: 1440, height: 144, maxWidth: '100%' }}>
         <p
           className="absolute font-sans text-center"
           style={{
-            left: 558,
-            top: 72,
-            width: 803,
-            fontSize: 24,
-            lineHeight: '30px',
+            left: 419,
+            top: 54,
+            width: 602,
+            fontSize: 18,
+            lineHeight: '23px',
             color: '#EBFF00',
           }}
         >
@@ -673,56 +667,54 @@ function ProgramMobileSection() {
 
 // ─── 4. PROGRAM ───
 function ProgramSection() {
-  const cardHeights = [620, 380, 340];
-  let currentTop = 150; // start after heading (heading top=0, h=100, +50 gap)
-  const cardTops = cardHeights.map((h, i) => {
+  const cardHeights = [465, 285, 255];
+  let currentTop = 113;
+  const cardTops = cardHeights.map((h) => {
     const t = currentTop;
-    currentTop += h + 16; // 16px gap between cards
+    currentTop += h + 12;
     return t;
   });
-  const totalHeight = currentTop + 80;
+  const totalHeight = currentTop + 60;
 
   return (
     <section id="program" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1920, height: totalHeight, maxWidth: '100%' }}>
+      <div className="relative mx-auto" style={{ width: 1440, height: totalHeight, maxWidth: '100%' }}>
         {/* Heading */}
         <h2
           className="absolute font-display uppercase text-white text-center"
           style={{
-            left: 300,
+            left: 225,
             top: 0,
-            width: 1320,
-            fontSize: 100,
-            lineHeight: '100px',
+            width: 990,
+            fontSize: 75,
+            lineHeight: '75px',
           }}
         >
           програма мастермайнду
         </h2>
 
-        {/* 3 program cards */}
         {PROGRAM.map((p, i) => (
           <article
             key={p.title}
             className="absolute overflow-hidden"
             style={{
-              left: 309,
+              left: 232,
               top: cardTops[i],
-              width: 1302,
+              width: 977,
               height: cardHeights[i],
-              borderRadius: 40,
+              borderRadius: 30,
               background:
                 'linear-gradient(135deg, #EBFF00 0%, #D9F200 45%, #A8C200 100%)',
             }}
           >
-            {/* Day chips */}
-            <div className="absolute flex items-center gap-1" style={{ left: 59, top: 61 }}>
+            <div className="absolute flex items-center gap-1" style={{ left: 44, top: 46 }}>
               <span
                 className="inline-flex items-center justify-center bg-white text-black rounded-full font-sans font-medium"
                 style={{
-                  height: 39,
-                  paddingLeft: 16,
-                  paddingRight: 16,
-                  fontSize: 22,
+                  height: 29,
+                  paddingLeft: 12,
+                  paddingRight: 12,
+                  fontSize: 17,
                   lineHeight: 1,
                 }}
               >
@@ -732,10 +724,10 @@ function ProgramSection() {
                 <span
                   className="inline-flex items-center justify-center bg-black text-white rounded-full font-sans font-medium"
                   style={{
-                    height: 39,
-                    paddingLeft: 16,
-                    paddingRight: 16,
-                    fontSize: 22,
+                    height: 29,
+                    paddingLeft: 12,
+                    paddingRight: 12,
+                    fontSize: 17,
                     lineHeight: 1,
                   }}
                 >
@@ -744,15 +736,14 @@ function ProgramSection() {
               )}
             </div>
 
-            {/* Title */}
             <h3
               className="absolute font-display uppercase"
               style={{
-                left: 98,
-                top: 150,
-                right: 80,
-                fontSize: 64,
-                lineHeight: '58px',
+                left: 74,
+                top: 113,
+                right: 60,
+                fontSize: 48,
+                lineHeight: '44px',
                 color: '#000',
                 letterSpacing: 0,
               }}
@@ -760,24 +751,23 @@ function ProgramSection() {
               {p.title}
             </h3>
 
-            {/* Bullets */}
-            <ul className="absolute" style={{ left: 98, top: 230, right: 60 }}>
+            <ul className="absolute" style={{ left: 74, top: 173, right: 45 }}>
               {p.bullets.map((b) => (
-                <li key={b} className="flex items-start gap-3 mb-3">
+                <li key={b} className="flex items-start gap-2 mb-2">
                   <span
                     aria-hidden
                     className="inline-block shrink-0"
                     style={{
-                      width: 10,
-                      height: 10,
+                      width: 8,
+                      height: 8,
                       borderRadius: '50%',
                       background: '#000',
-                      marginTop: 10,
+                      marginTop: 8,
                     }}
                   />
                   <span
                     className="font-sans"
-                    style={{ fontSize: 24, lineHeight: '32px', color: '#1E1E1E' }}
+                    style={{ fontSize: 18, lineHeight: '24px', color: '#1E1E1E' }}
                   >
                     {b}
                   </span>
@@ -846,49 +836,49 @@ function ResultsMobile() {
 }
 
 function ResultsSection() {
-  const leftYs = [47, 141, 235];
-  const rightYs = [47, 141, 235];
+  const leftYs = [35, 106, 176];
+  const rightYs = [35, 106, 176];
   return (
     <section id="results" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1920, height: 630, maxWidth: '100%' }}>
+      <div className="relative mx-auto" style={{ width: 1440, height: 473, maxWidth: '100%' }}>
         <h2
           className="absolute font-display uppercase text-white text-center"
-          style={{ left: 300, top: 80, width: 1320, fontSize: 100, lineHeight: '100px' }}
+          style={{ left: 225, top: 60, width: 990, fontSize: 75, lineHeight: '75px' }}
         >
           результати після мастермайнду
         </h2>
 
         <div
           className="absolute overflow-hidden"
-          style={{ left: 300, top: 228, width: 1311, height: 364, borderRadius: 40, background: '#000' }}
+          style={{ left: 225, top: 171, width: 983, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
             style={{
-              left: -388, top: -89, width: 1422, height: 397,
-              borderRadius: '50%', background: '#EBFF00', filter: 'blur(120px)', opacity: 0.22,
+              left: -291, top: -67, width: 1067, height: 298,
+              borderRadius: '50%', background: '#EBFF00', filter: 'blur(90px)', opacity: 0.22,
             }}
           />
           <div
             className="absolute pointer-events-none"
             style={{
-              left: 60, top: 187, width: 1424, height: 539,
-              borderRadius: '50%', background: '#EBFF00', filter: 'blur(120px)', opacity: 0.18,
+              left: 45, top: 140, width: 1068, height: 404,
+              borderRadius: '50%', background: '#EBFF00', filter: 'blur(90px)', opacity: 0.18,
             }}
           />
           <div
             className="absolute pointer-events-none"
             style={{
-              left: -323, top: 138, width: 981, height: 544,
-              borderRadius: '50%', background: '#ffffff', filter: 'blur(140px)', opacity: 0.12,
+              left: -242, top: 104, width: 736, height: 408,
+              borderRadius: '50%', background: '#ffffff', filter: 'blur(105px)', opacity: 0.12,
             }}
           />
 
           {RESULTS_LEFT.map((t, i) => (
-            <ForWhomPill key={t} left={38} top={leftYs[i]} height={82} text={t} />
+            <ForWhomPill key={t} left={29} top={leftYs[i]} height={62} text={t} />
           ))}
           {RESULTS_RIGHT.map((t, i) => (
-            <ForWhomPill key={t} left={621} top={rightYs[i]} height={82} text={t} />
+            <ForWhomPill key={t} left={466} top={rightYs[i]} height={62} text={t} />
           ))}
         </div>
       </div>
@@ -980,154 +970,141 @@ function AndriyStatsMobile() {
 }
 
 function AndriyStats() {
-  const SECTION_LEFT = 303;
+  const SECTION_LEFT = 227;
   const founderBullets = [
     {
-      left: 369 - SECTION_LEFT,
-      width: 422,
+      left: 50,
+      width: 317,
       text: 'Бюро Продажів - міжнародна консалтингова компанія. Побудувано 185+ відділів продажів, більш ніж у 10-ти країнах світу.',
     },
     {
-      left: 838 - SECTION_LEFT,
-      width: 438,
+      left: 401,
+      width: 329,
       text: 'Академія продажів - рекрутинговий та освітній проєкт, який спеціалізується на наймі комерсантів. За 7 років нанято більше 1500 людей та 5000+ людей навчено продажам',
     },
     {
-      left: 1338 - SECTION_LEFT,
-      width: 241,
+      left: 776,
+      width: 181,
       text: 'Ukrainian Sales Club - закрита спільнота комерсантів',
     },
   ];
 
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1920, height: 1087, maxWidth: '100%' }}>
-        {/* Inner absolute layer aligned to Figma x=303 */}
-        <div className="absolute" style={{ left: SECTION_LEFT, top: 0, width: 1309, height: 1087 }}>
-          {/* Background pattern (same as hero) — shifted left so bright area sits behind portrait, not text */}
+      <div className="relative mx-auto" style={{ width: 1440, height: 815, maxWidth: '100%' }}>
+        <div className="absolute" style={{ left: SECTION_LEFT, top: 0, width: 982, height: 815 }}>
           <div
             className="absolute pointer-events-none"
-            style={{ left: -550, top: 0, width: 1309, height: 869, zIndex: 0 }}
+            style={{ left: -413, top: 0, width: 982, height: 652, zIndex: 0 }}
           >
             <Image
               src="/images/hero-bg-pattern.png"
               alt=""
               fill
-              sizes="1309px"
+              sizes="982px"
               className="object-cover"
             />
           </div>
 
-          {/* Portrait */}
-          <div className="absolute" style={{ left: -35, top: 75, width: 624, height: 740 }}>
+          <div className="absolute" style={{ left: -26, top: 56, width: 468, height: 555 }}>
             <Image
               src="/images/andriy-portrait.png"
               alt="Андрій Крупкін"
               fill
-              sizes="624px"
+              sizes="468px"
               className="object-contain object-bottom"
             />
           </div>
 
-          {/* "Автор курсу" badge — image */}
-          <div className="absolute" style={{ left: 589, top: 0, width: 279, height: 70 }}>
-            <Image src="/images/Group 1966047708.png" alt="Автор майстер-класу" fill sizes="279px" className="object-contain" />
+          <div className="absolute" style={{ left: 442, top: 0, width: 209, height: 53 }}>
+            <Image src="/images/Group 1966047708.png" alt="Автор майстер-класу" fill sizes="209px" className="object-contain" />
           </div>
 
-          {/* АНДРІЙ */}
           <div
             className="absolute font-display uppercase text-acid"
-            style={{ left: 892 - SECTION_LEFT, top: 180, fontSize: 137, lineHeight: '0.9' }}
+            style={{ left: 442, top: 135, fontSize: 103, lineHeight: '0.9' }}
           >
             Андрій
           </div>
-          {/* КРУПКІН */}
           <div
             className="absolute font-display uppercase text-acid"
-            style={{ left: 978 - SECTION_LEFT, top: 330, fontSize: 137, lineHeight: '0.9' }}
+            style={{ left: 506, top: 248, fontSize: 103, lineHeight: '0.9' }}
           >
             Крупкін
           </div>
 
-          {/* Social icons — yellow glyph on translucent-white tile */}
           <a
             href="https://www.instagram.com/krupkin.pro"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute flex items-center justify-center"
-            style={{ left: 1404 - SECTION_LEFT, top: 372, width: 72, height: 72, background: 'rgba(255,255,255,0.08)' }}
+            style={{ left: 826, top: 279, width: 54, height: 54, background: 'rgba(255,255,255,0.08)' }}
           >
-            <Image src="/icons/icon-instagram.svg" alt="Instagram" width={36} height={36} />
+            <Image src="/icons/icon-instagram.svg" alt="Instagram" width={27} height={27} />
           </a>
           <a
             href="https://youtube.com/@andriykrupkin"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute flex items-center justify-center"
-            style={{ left: 1489 - SECTION_LEFT, top: 372, width: 68, height: 68, background: 'rgba(255,255,255,0.08)' }}
+            style={{ left: 890, top: 279, width: 51, height: 51, background: 'rgba(255,255,255,0.08)' }}
           >
-            <Image src="/icons/icon-youtube.svg" alt="YouTube" width={40} height={28} />
+            <Image src="/icons/icon-youtube.svg" alt="YouTube" width={30} height={21} />
           </a>
 
-          {/* Bio pill — aligned with founder bullets column */}
-          <div className="absolute" style={{ left: 369 - SECTION_LEFT, top: 711, width: 442 }}>
+          <div className="absolute" style={{ left: 50, top: 533, width: 332 }}>
             <span
               className="inline-block rounded-full bg-acid absolute"
-              style={{ width: 9, height: 9, left: -20, top: 12 }}
+              style={{ width: 7, height: 7, left: -15, top: 9 }}
             />
-            <div className="font-sans" style={{ fontSize: 20, lineHeight: '26px', color: '#FAF8F5' }}>
+            <div className="font-sans" style={{ fontSize: 15, lineHeight: '20px', color: '#FAF8F5' }}>
               Пройшов шлях від менеджера з продажів<br />до серійного підприємця
             </div>
           </div>
 
-          {/* Stat card 1 */}
           <div
             className="absolute bg-acid text-black z-10"
-            style={{ left: 805 - SECTION_LEFT, top: 592, width: 374, height: 167, borderRadius: 16, padding: '24px 28px' }}
+            style={{ left: 377, top: 444, width: 281, height: 125, borderRadius: 12, padding: '18px 21px' }}
           >
-            <div className="font-display" style={{ fontSize: 80, lineHeight: '0.95', fontWeight: 700, whiteSpace: 'nowrap' }}>
+            <div className="font-display" style={{ fontSize: 60, lineHeight: '0.95', fontWeight: 700, whiteSpace: 'nowrap' }}>
               18<span className="font-sans" style={{ fontSize: '0.7em', fontWeight: 500, verticalAlign: '0.12em' }}>+</span> років
             </div>
-            <div className="font-sans" style={{ fontSize: 24, lineHeight: '28px', marginTop: 8 }}>
+            <div className="font-sans" style={{ fontSize: 18, lineHeight: '21px', marginTop: 6 }}>
               років у сфері продажів
             </div>
           </div>
 
-          {/* Stat card 2 */}
           <div
             className="absolute bg-acid text-black z-10"
-            style={{ left: 1202 - SECTION_LEFT, top: 592, width: 410, height: 167, borderRadius: 16, padding: '24px 28px' }}
+            style={{ left: 674, top: 444, width: 308, height: 125, borderRadius: 12, padding: '18px 21px' }}
           >
-            <div className="font-display" style={{ fontSize: 80, lineHeight: '0.95', fontWeight: 700 }}>
+            <div className="font-display" style={{ fontSize: 60, lineHeight: '0.95', fontWeight: 700 }}>
               184<span className="font-sans" style={{ fontSize: '0.7em', fontWeight: 500, verticalAlign: '0.12em' }}>+</span>
             </div>
-            <div className="font-sans" style={{ fontSize: 24, lineHeight: '28px', marginTop: 8 }}>
+            <div className="font-sans" style={{ fontSize: 18, lineHeight: '21px', marginTop: 6 }}>
               побудованих відділів продажів
             </div>
           </div>
 
-          {/* Gray panel */}
           <div
             className="absolute"
-            style={{ left: 0, top: 668, width: 1308, height: 419, borderRadius: 40, background: 'rgba(107,107,107,0.35)' }}
+            style={{ left: 0, top: 501, width: 981, height: 314, borderRadius: 30, background: 'rgba(107,107,107,0.35)' }}
           />
 
-          {/* "Засновник компаній:" heading */}
           <div
             className="absolute font-display uppercase text-white"
-            style={{ left: 349 - SECTION_LEFT, top: 840, fontSize: 50, lineHeight: '1' }}
+            style={{ left: 35, top: 630, fontSize: 38, lineHeight: '1' }}
           >
             Засновник компаній:
           </div>
 
-          {/* 3 founder bullets */}
           {founderBullets.map((b, i) => (
-            <div key={i} className="absolute" style={{ left: b.left, top: 921, width: b.width }}>
+            <div key={i} className="absolute" style={{ left: b.left, top: 691, width: b.width }}>
               <span
                 className="inline-block rounded-full bg-acid absolute"
-                style={{ width: 9, height: 9, left: -20, top: 12 }}
+                style={{ width: 7, height: 7, left: -15, top: 9 }}
               />
-              <div className="font-sans text-white" style={{ fontSize: 20, lineHeight: '26px' }}>
+              <div className="font-sans text-white" style={{ fontSize: 15, lineHeight: '20px' }}>
                 {b.text}
               </div>
             </div>
@@ -1165,28 +1142,19 @@ function LogosMobile() {
 }
 
 function LogosSection() {
-  const logos = [
-    { src: 'logo-hero-large.png',  size: 200, x: '50%', y: '50%' },
-    { src: 'logo-company-1.png',   size: 140, x: '10%', y: '20%' },
-    { src: 'logo-company-2.png',   size: 160, x: '85%', y: '25%' },
-    { src: 'logo-company-3.png',   size: 100, x: '22%', y: '75%' },
-    { src: 'logo-company-4.png',   size: 120, x: '75%', y: '80%' },
-    { src: 'logo-company-5.png',   size: 130, x: '48%', y: '12%' },
-    { src: 'logo-company-6.png',   size: 150, x: '90%', y: '60%' },
-  ];
   return (
     <section className="hidden lg:block bg-black text-white">
-      <div className="mx-auto max-w-[1304px] px-6 md:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-[978px] px-5 py-[72px]">
         <h2
           className="font-display uppercase text-white text-center mx-auto"
-          style={{ fontSize: 100, lineHeight: '100px', maxWidth: 1100 }}
+          style={{ fontSize: 75, lineHeight: '75px', maxWidth: 825 }}
         >
           Я витратив на ці знання{' '}
           <span className="text-acid">18 років та 100<span className="font-sans" style={{ fontSize: '0.7em', fontWeight: 500, verticalAlign: '0.12em' }}>+</span> тисяч доларів</span>
         </h2>
 
-        <div className="relative mt-16 w-full" style={{ aspectRatio: '1304 / 660' }}>
-          <Image src="/images/31.png" alt="" fill sizes="1304px" className="object-contain" />
+        <div className="relative mt-12 w-full" style={{ aspectRatio: '1304 / 660' }}>
+          <Image src="/images/31.png" alt="" fill sizes="978px" className="object-contain" />
         </div>
       </div>
     </section>
@@ -1231,8 +1199,8 @@ function TestimonialMobile() {
 function TestimonialSection() {
   return (
     <section id="testimonials" className="hidden lg:block bg-black text-white">
-      <div className="mx-auto max-w-[1304px] px-6 md:px-10 py-24 md:py-32">
-        <h2 className="font-display text-[48px] md:text-h2 uppercase text-center leading-none tracking-[-0.022em] mb-14">
+      <div className="mx-auto max-w-[978px] px-5 py-[72px]">
+        <h2 className="font-display text-[36px] md:text-h2 uppercase text-center leading-none tracking-[-0.022em] mb-10">
           Відгуки з навчань
         </h2>
 
@@ -1358,81 +1326,76 @@ function SecondCtaSection() {
   ];
   return (
     <section id="registration" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1920, height: 920, maxWidth: '100%' }}>
-        {/* Heading */}
+      <div className="relative mx-auto" style={{ width: 1440, height: 690, maxWidth: '100%' }}>
         <h2
           className="absolute font-display uppercase text-white text-center"
-          style={{ left: 300, top: 60, width: 1320, fontSize: 100, lineHeight: '100px' }}
+          style={{ left: 225, top: 45, width: 990, fontSize: 75, lineHeight: '75px' }}
         >
           Такий живий формат проводимо раз на кілька місяців
         </h2>
 
-        {/* Subtitle */}
         <p
           className="absolute font-sans text-center"
-          style={{ left: 460, top: 260, width: 1000, fontSize: 24, lineHeight: '30px', color: 'rgba(217,217,217,0.75)' }}
+          style={{ left: 345, top: 195, width: 750, fontSize: 18, lineHeight: '23px', color: 'rgba(217,217,217,0.75)' }}
         >
           Цієї весни підприємці оновлюють свої відділи продажів. Приєднуйся.
         </p>
 
-        {/* Pills inside gradient container — same as ResultsSection */}
         <div
           className="absolute overflow-hidden"
-          style={{ left: 300, top: 330, width: 1311, height: 364, borderRadius: 40, background: '#000' }}
+          style={{ left: 225, top: 248, width: 983, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
-            style={{ left: -388, top: -89, width: 1422, height: 397, borderRadius: '50%', background: '#EBFF00', filter: 'blur(120px)', opacity: 0.22 }}
+            style={{ left: -291, top: -67, width: 1067, height: 298, borderRadius: '50%', background: '#EBFF00', filter: 'blur(90px)', opacity: 0.22 }}
           />
           <div
             className="absolute pointer-events-none"
-            style={{ left: 60, top: 187, width: 1424, height: 539, borderRadius: '50%', background: '#EBFF00', filter: 'blur(120px)', opacity: 0.18 }}
+            style={{ left: 45, top: 140, width: 1068, height: 404, borderRadius: '50%', background: '#EBFF00', filter: 'blur(90px)', opacity: 0.18 }}
           />
           <div
             className="absolute pointer-events-none"
-            style={{ left: -323, top: 138, width: 981, height: 544, borderRadius: '50%', background: '#ffffff', filter: 'blur(140px)', opacity: 0.12 }}
+            style={{ left: -242, top: 104, width: 736, height: 408, borderRadius: '50%', background: '#ffffff', filter: 'blur(105px)', opacity: 0.12 }}
           />
           {pills.slice(0, 3).map((t, i) => (
-            <ForWhomPill key={`l-${i}`} left={38} top={47 + i * 94} height={82} text={t} />
+            <ForWhomPill key={`l-${i}`} left={29} top={35 + i * 71} height={62} text={t} />
           ))}
           {pills.slice(3).map((t, i) => (
-            <ForWhomPill key={`r-${i}`} left={621} top={47 + i * 94} height={82} text={t} />
+            <ForWhomPill key={`r-${i}`} left={466} top={35 + i * 71} height={62} text={t} />
           ))}
         </div>
 
-        {/* Left gray pill */}
         <div
           className="absolute"
-          style={{ left: 306, top: 740, width: 709, height: 126, borderRadius: 100, background: 'rgba(107,107,107,0.35)', backdropFilter: 'blur(8px)' }}
+          style={{ left: 230, top: 555, width: 532, height: 95, borderRadius: 75, background: 'rgba(107,107,107,0.35)', backdropFilter: 'blur(8px)' }}
         />
-        <div className="absolute" style={{ left: 290, top: 728, width: 151, height: 151 }}>
-          <Image src="/images/gift-badge.png" alt="" fill sizes="151px" className="object-contain" />
+        <div className="absolute" style={{ left: 218, top: 546, width: 113, height: 113 }}>
+          <Image src="/images/gift-badge.png" alt="" fill sizes="113px" className="object-contain" />
         </div>
         <div
           className="absolute font-sans text-white whitespace-pre-line"
-          style={{ left: 455, top: 761, width: 550, fontSize: 20, lineHeight: '28px' }}
+          style={{ left: 341, top: 571, width: 413, fontSize: 15, lineHeight: '21px' }}
         >
           Реєструйся протягом <Countdown className="font-semibold" />{'\n'}подарунок гайд «5 типів менеджерів, які вбивають продажі компанії»
         </div>
 
-        {/* Right lime CTA */}
         <a
           href="#"
           data-register-cta
           className="cta-animated absolute flex items-center justify-center cursor-pointer"
           style={{
-            left: 1056,
-            top: 740,
-            width: 554,
-            height: 126,
-            borderRadius: 100,
+            left: 792,
+            top: 555,
+            width: 416,
+            height: 95,
+            borderRadius: 75,
             background: 'linear-gradient(180deg, #F4FF4A 0%, #EBFF00 50%, #C9DB00 100%)',
             boxShadow: '0 4px 50px #EBFF00, inset 0 0 0 1px #EBFF00',
           }}
         >
           <span
             className="font-display uppercase text-black"
-            style={{ fontSize: 60, lineHeight: 1, display: 'inline-block', transform: 'translateY(0.08em)' }}
+            style={{ fontSize: 45, lineHeight: 1, display: 'inline-block', transform: 'translateY(0.08em)' }}
           >
             зареєструватись
           </span>

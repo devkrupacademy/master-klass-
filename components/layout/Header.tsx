@@ -19,22 +19,22 @@ export function Header() {
       </div>
 
       {/* Desktop (≥lg) */}
-      <div className="hidden lg:block relative mx-auto max-w-[1920px] h-[105px]">
+      <div className="hidden lg:block relative mx-auto max-w-[1440px] h-[79px]">
         {/* Logo */}
-        <a href="/" className="absolute flex items-center" style={{ left: 303, top: 37, height: 31 }}>
+        <a href="/" className="absolute flex items-center" style={{ left: 227, top: 28, height: 23 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/logo.svg" alt="Академія продажів Андрія Крупкіна" style={{ height: 31, width: 'auto' }} />
+          <img src="/images/logo.svg" alt="Академія продажів Андрія Крупкіна" style={{ height: 23, width: 'auto' }} />
         </a>
 
         {/* Center date — white text with lime bullets */}
         <div
-          className="absolute flex items-center justify-center gap-3 text-white font-sans"
-          style={{ left: 594, top: 41, width: 557, height: 24, fontSize: 24, lineHeight: '24px' }}
+          className="absolute flex items-center justify-center gap-2 text-white font-sans"
+          style={{ left: 446, top: 31, width: 418, height: 18, fontSize: 18, lineHeight: '18px' }}
         >
           <span>2 дні</span>
-          <span className="w-[9px] h-[9px] rounded-full bg-acid inline-block" />
+          <span className="w-[7px] h-[7px] rounded-full bg-acid inline-block" />
           <span>28–29 квітня</span>
-          <span className="w-[9px] h-[9px] rounded-full bg-acid inline-block" />
+          <span className="w-[7px] h-[7px] rounded-full bg-acid inline-block" />
           <span>о 19:00</span>
         </div>
 
@@ -43,11 +43,11 @@ export function Header() {
           href="#"
           data-register-cta
           className="absolute flex items-center justify-center rounded-full border border-white bg-transparent text-white hover:bg-white hover:text-black transition-colors cursor-pointer"
-          style={{ left: 1287, top: 28, width: 313, height: 49 }}
+          style={{ left: 965, top: 21, width: 235, height: 37 }}
         >
           <span
             className="font-display uppercase whitespace-nowrap"
-            style={{ fontSize: 26, lineHeight: 1, display: 'inline-block', transform: 'translateY(0.08em)' }}
+            style={{ fontSize: 20, lineHeight: 1, display: 'inline-block', transform: 'translateY(0.08em)' }}
           >
             прийняти участь безкоштовно
           </span>

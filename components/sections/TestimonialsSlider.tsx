@@ -98,34 +98,34 @@ export function TestimonialsSlider({ items, variant }: Props) {
       <div
         className="mx-auto relative"
         style={{
-          maxWidth: 1299,
-          borderRadius: 48,
+          maxWidth: 974,
+          borderRadius: 36,
           background: '#EBFF00',
           border: '1px solid rgba(235,255,0,0.19)',
-          padding: 46,
+          padding: 35,
         }}
       >
         <article
-          className="grid grid-cols-[409px_1fr] gap-14 items-start"
+          className="grid grid-cols-[307px_1fr] gap-10 items-start"
           style={{
             background: '#11121A',
-            borderRadius: 38.4,
-            padding: 32,
-            minHeight: 252,
+            borderRadius: 29,
+            padding: 24,
+            minHeight: 189,
           }}
         >
           <div
             className="relative"
             style={{
               background: 'rgba(235,255,0,0.19)',
-              borderRadius: 32,
-              padding: 25,
-              minHeight: 188,
+              borderRadius: 24,
+              padding: 19,
+              minHeight: 141,
             }}
           >
             <div
               className="font-display uppercase text-white"
-              style={{ fontSize: 46, lineHeight: '46px' }}
+              style={{ fontSize: 35, lineHeight: '35px' }}
             >
               {current.name}
             </div>
@@ -133,8 +133,8 @@ export function TestimonialsSlider({ items, variant }: Props) {
           <blockquote
             className="font-sans italic"
             style={{
-              fontSize: 18,
-              lineHeight: '24px',
+              fontSize: 14,
+              lineHeight: '18px',
               color: 'rgba(250,248,245,0.85)',
               whiteSpace: 'pre-line',
             }}
@@ -144,14 +144,14 @@ export function TestimonialsSlider({ items, variant }: Props) {
         </article>
       </div>
 
-      <div className="mx-auto mt-10 flex items-center justify-between" style={{ maxWidth: 1299 }}>
+      <div className="mx-auto mt-8 flex items-center justify-between" style={{ maxWidth: 974 }}>
         <div className="flex items-center gap-2">
           {items.map((_, idx) => (
             <span
               key={idx}
               className="h-[3px] rounded-full"
               style={{
-                width: idx === i ? 32 : 20,
+                width: idx === i ? 24 : 15,
                 background: idx === i ? '#EBFF00' : 'rgba(255,255,255,0.2)',
                 transition: 'all 0.25s',
               }}
@@ -163,7 +163,7 @@ export function TestimonialsSlider({ items, variant }: Props) {
             aria-label="Previous"
             onClick={prev}
             className="flex items-center justify-center rounded-full border border-acid/50 text-acid hover:bg-acid hover:text-black transition-colors"
-            style={{ width: 44, height: 44 }}
+            style={{ width: 33, height: 33 }}
           >
             ‹
           </button>
@@ -171,7 +171,7 @@ export function TestimonialsSlider({ items, variant }: Props) {
             aria-label="Next"
             onClick={next}
             className="flex items-center justify-center rounded-full border border-acid/50 text-acid hover:bg-acid hover:text-black transition-colors"
-            style={{ width: 44, height: 44 }}
+            style={{ width: 33, height: 33 }}
           >
             ›
           </button>
