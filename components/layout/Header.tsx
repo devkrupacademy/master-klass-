@@ -21,7 +21,7 @@ export function Header() {
       {/* Desktop (≥lg) */}
       <div className="hidden lg:block relative mx-auto max-w-[1440px] h-[79px]">
         {/* Logo */}
-        <a href="/" className="absolute flex items-center" style={{ left: 227, top: 28, height: 23 }}>
+        <a href="/" className="absolute flex items-center" style={{ left: 225, top: 28, height: 23 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/images/logo.svg" alt="Академія продажів Андрія Крупкіна" style={{ height: 23, width: 'auto' }} />
         </a>

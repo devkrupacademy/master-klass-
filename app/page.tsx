@@ -512,7 +512,7 @@ function ForWhomSection() {
         {/* Gradient panel */}
         <div
           className="absolute overflow-hidden"
-          style={{ left: 225, top: 171, width: 983, height: 356, borderRadius: 30, background: '#000' }}
+          style={{ left: 225, top: 171, width: 990, height: 356, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
@@ -698,9 +698,9 @@ function ProgramSection() {
             key={p.title}
             className="absolute overflow-hidden"
             style={{
-              left: 232,
+              left: 225,
               top: cardTops[i],
-              width: 977,
+              width: 990,
               height: cardHeights[i],
               borderRadius: 30,
               background:
@@ -850,7 +850,7 @@ function ResultsSection() {
 
         <div
           className="absolute overflow-hidden"
-          style={{ left: 225, top: 171, width: 983, height: 273, borderRadius: 30, background: '#000' }}
+          style={{ left: 225, top: 171, width: 990, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
@@ -970,7 +970,7 @@ function AndriyStatsMobile() {
 }
 
 function AndriyStats() {
-  const SECTION_LEFT = 227;
+  const SECTION_LEFT = 225;
   const founderBullets = [
     {
       left: 50,
@@ -992,7 +992,7 @@ function AndriyStats() {
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
       <div className="relative mx-auto" style={{ width: 1440, height: 815, maxWidth: '100%' }}>
-        <div className="absolute" style={{ left: SECTION_LEFT, top: 0, width: 982, height: 815 }}>
+        <div className="absolute" style={{ left: SECTION_LEFT, top: 0, width: 990, height: 815 }}>
           <div
             className="absolute pointer-events-none"
             style={{ left: -413, top: 0, width: 982, height: 652, zIndex: 0 }}
@@ -1088,7 +1088,7 @@ function AndriyStats() {
 
           <div
             className="absolute"
-            style={{ left: 0, top: 501, width: 981, height: 314, borderRadius: 30, background: 'rgba(107,107,107,0.35)' }}
+            style={{ left: 0, top: 501, width: 990, height: 314, borderRadius: 30, background: 'rgba(107,107,107,0.35)' }}
           />
 
           <div
@@ -1144,7 +1144,7 @@ function LogosMobile() {
 function LogosSection() {
   return (
     <section className="hidden lg:block bg-black text-white">
-      <div className="mx-auto max-w-[978px] px-5 py-[72px]">
+      <div className="mx-auto max-w-[990px] px-5 py-[72px]">
         <h2
           className="font-display uppercase text-white text-center mx-auto"
           style={{ fontSize: 75, lineHeight: '75px', maxWidth: 825 }}
@@ -1199,7 +1199,7 @@ function TestimonialMobile() {
 function TestimonialSection() {
   return (
     <section id="testimonials" className="hidden lg:block bg-black text-white">
-      <div className="mx-auto max-w-[978px] px-5 py-[72px]">
+      <div className="mx-auto max-w-[990px] px-5 py-[72px]">
         <h2 className="font-display text-[36px] md:text-h2 uppercase text-center leading-none tracking-[-0.022em] mb-10">
           Відгуки з навчань
         </h2>
@@ -1343,7 +1343,7 @@ function SecondCtaSection() {
 
         <div
           className="absolute overflow-hidden"
-          style={{ left: 225, top: 248, width: 983, height: 273, borderRadius: 30, background: '#000' }}
+          style={{ left: 225, top: 248, width: 990, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"

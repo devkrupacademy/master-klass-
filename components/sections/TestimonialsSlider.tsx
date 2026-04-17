@@ -98,7 +98,7 @@ export function TestimonialsSlider({ items, variant }: Props) {
       <div
         className="mx-auto relative"
         style={{
-          maxWidth: 974,
+          maxWidth: 990,
           borderRadius: 36,
           background: '#EBFF00',
           border: '1px solid rgba(235,255,0,0.19)',
@@ -144,7 +144,7 @@ export function TestimonialsSlider({ items, variant }: Props) {
         </article>
       </div>
 
-      <div className="mx-auto mt-8 flex items-center justify-between" style={{ maxWidth: 974 }}>
+      <div className="mx-auto mt-8 flex items-center justify-between" style={{ maxWidth: 990 }}>
         <div className="flex items-center gap-2">
           {items.map((_, idx) => (
             <span

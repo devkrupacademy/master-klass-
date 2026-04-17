@@ -4,7 +4,7 @@ import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="bg-black border-t border-white/10">
-      <div className="mx-auto max-w-[978px] px-6 md:px-10 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      <div className="mx-auto max-w-[990px] px-6 md:px-10 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div className="font-sans text-logo uppercase font-bold leading-[1.28] text-white">
           Академія продажів
           <br />
@@ -29,7 +29,7 @@ export function Footer() {
           </a>
         </div>
       </div>
-      <div className="mx-auto max-w-[978px] px-6 md:px-10 pb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3 font-sans text-footer text-white/40">
+      <div className="mx-auto max-w-[990px] px-6 md:px-10 pb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3 font-sans text-footer text-white/40">
         <span>© 2026 Академія продажів Андрія Крупкіна</span>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-1">
           <Link href="/privacy" className="hover:text-white">Політика конфіденційності</Link>
