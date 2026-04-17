@@ -21,7 +21,7 @@ export function Header() {
       {/* Desktop (≥lg) */}
       <div className="hidden lg:block relative mx-auto max-w-[1440px] h-[79px] pr-[8px]">
         {/* Logo */}
-        <a href="/" className="absolute flex items-center" style={{ left: 185, top: 28, height: 23 }}>
+        <a href="/" className="absolute flex items-center" style={{ left: 225, top: 28, height: 23 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/images/logo.svg" alt="Академія продажів Андрія Крупкіна" style={{ height: 23, width: 'auto' }} />
         </a>
@@ -29,7 +29,7 @@ export function Header() {
         {/* Center date — white text with lime bullets */}
         <div
           className="absolute flex items-center justify-center gap-2 text-white font-sans"
-          style={{ left: 406, top: 31, width: 418, height: 18, fontSize: 18, lineHeight: '18px' }}
+          style={{ left: 446, top: 31, width: 418, height: 18, fontSize: 18, lineHeight: '18px' }}
         >
           <span>2 дні</span>
           <span className="w-[7px] h-[7px] rounded-full bg-acid inline-block" />
@@ -43,7 +43,7 @@ export function Header() {
           href="#"
           data-register-cta
           className="absolute flex items-center justify-center rounded-full border border-white bg-transparent text-white hover:bg-white hover:text-black transition-colors cursor-pointer"
-          style={{ left: 925, top: 21, width: 235, height: 37 }}
+          style={{ left: 965, top: 21, width: 235, height: 37 }}
         >
           <span
             className="font-display uppercase whitespace-nowrap"

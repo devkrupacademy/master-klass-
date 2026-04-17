@@ -6,6 +6,7 @@ import { Reveal } from '@/components/Reveal';
 import { Countdown } from '@/components/Countdown';
 import { ParallaxImage } from '@/components/ui/ParallaxImage';
 import { TestimonialsSlider } from '@/components/sections/TestimonialsSlider';
+import { DesktopCanvas } from '@/components/ui/DesktopCanvas';
 
 // ─── Real copy extracted from Figma node 1:1723 ───
 const FOR_WHOM_LEFT = [
@@ -235,9 +236,10 @@ function HeroMobile() {
 function Hero() {
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
+      <DesktopCanvas h={667}>
       <div
-        className="relative mx-auto"
-        style={{ width: 1440, height: 667, maxWidth: '100%' }}
+        className="relative"
+        style={{ width: 1440, height: 667 }}
       >
         {/* Background pattern */}
         <div
@@ -401,6 +403,7 @@ function Hero() {
           Участь безкоштовна · Zoom-формат · Кількість обмежена
         </div>
       </div>
+      </DesktopCanvas>
     </section>
   );
 }
@@ -484,7 +487,8 @@ function ForWhomSection() {
 
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1440, height: 555, maxWidth: '100%' }}>
+      <DesktopCanvas h={555}>
+      <div className="relative" style={{ width: 1440, height: 555 }}>
         {/* Heading */}
         <h2
           className="absolute font-display uppercase text-white left-0 right-0 mx-auto"
@@ -503,7 +507,7 @@ function ForWhomSection() {
         {/* Gradient panel */}
         <div
           className="absolute overflow-hidden"
-          style={{ left: 185, top: 171, width: 990, height: 356, borderRadius: 30, background: '#000' }}
+          style={{ left: 225, top: 171, width: 990, height: 356, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
@@ -554,6 +558,7 @@ function ForWhomSection() {
           ))}
         </div>
       </div>
+      </DesktopCanvas>
     </section>
   );
 }
@@ -687,7 +692,7 @@ function ProgramSection() {
             key={p.title}
             className="absolute overflow-hidden"
             style={{
-              left: 185,
+              left: 225,
               top: cardTops[i],
               width: 990,
               height: cardHeights[i],
@@ -839,7 +844,7 @@ function ResultsSection() {
 
         <div
           className="absolute overflow-hidden"
-          style={{ left: 185, top: 171, width: 990, height: 273, borderRadius: 30, background: '#000' }}
+          style={{ left: 225, top: 171, width: 990, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
@@ -959,7 +964,7 @@ function AndriyStatsMobile() {
 }
 
 function AndriyStats() {
-  const SECTION_LEFT = 185;
+  const SECTION_LEFT = 225;
   const founderBullets = [
     {
       left: 50,
@@ -1135,7 +1140,7 @@ function LogosSection() {
     <section className="hidden lg:block bg-black text-white">
       <div className="mx-auto max-w-[990px] px-5 py-[72px]">
         <h2
-          className="font-display uppercase text-white"
+          className="font-display uppercase text-white text-center"
           style={{ fontSize: 75, lineHeight: '75px' }}
         >
           Я витратив на ці знання{' '}
@@ -1189,7 +1194,7 @@ function TestimonialSection() {
   return (
     <section id="testimonials" className="hidden lg:block bg-black text-white">
       <div className="mx-auto max-w-[990px] px-5 py-[72px]">
-        <h2 className="font-display text-[36px] md:text-h2 uppercase leading-none tracking-[-0.022em] mb-10">
+        <h2 className="font-display text-[36px] md:text-h2 uppercase text-center leading-none tracking-[-0.022em] mb-10">
           Відгуки з навчань
         </h2>
 
@@ -1332,7 +1337,7 @@ function SecondCtaSection() {
 
         <div
           className="absolute overflow-hidden"
-          style={{ left: 185, top: 248, width: 990, height: 273, borderRadius: 30, background: '#000' }}
+          style={{ left: 225, top: 248, width: 990, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
