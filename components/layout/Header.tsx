@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-[rgba(255,255,255,0.1)] backdrop-blur-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[rgba(255,255,255,0.1)] backdrop-blur-md">
       {/* Mobile (<lg) */}
       <div className="lg:hidden relative mx-auto h-[68px] px-5 flex items-center">
         <a href="/" className="flex items-center">

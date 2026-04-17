@@ -1396,7 +1396,7 @@ function SecondCtaSection() {
 
 export default function LandingPage() {
   return (
-    <main className="bg-black text-white min-h-screen pb-[94px] md:pb-0">
+    <main className="bg-black text-white min-h-screen pb-[94px] md:pb-0 pt-[68px] lg:pt-[79px]">
       <Header />
       <HeroMobile />
       <Hero />
