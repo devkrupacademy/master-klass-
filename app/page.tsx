@@ -116,7 +116,7 @@ function HeroMobile() {
           className="hero-anim hero-anim-d1 absolute font-sans text-acid"
           style={{ left: 24, top: 0, width: 280, fontSize: 15, lineHeight: '15px' }}
         >
-          Майстермайнд Андрія Крупкіна
+          Майстер клас Андрія Крупкіна
         </div>
 
         {/* H1 — LEFT aligned, 38/38/30 per Figma */}
@@ -283,7 +283,7 @@ function Hero() {
           className="hero-anim hero-anim-d1 absolute font-sans text-acid"
           style={{ left: 230, top: 29, fontSize: 18, lineHeight: '18px' }}
         >
-          Майстермайнд Андрія Крупкіна
+          Майстер клас Андрія Крупкіна
         </div>
 
         {/* H1 */}
