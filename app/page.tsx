@@ -489,7 +489,7 @@ function ForWhomSection() {
         <h2
           className="absolute font-display uppercase text-white"
           style={{
-            left: 225,
+            left: 185,
             top: 60,
             width: 990,
             textAlign: 'center',
@@ -504,7 +504,7 @@ function ForWhomSection() {
         {/* Gradient panel */}
         <div
           className="absolute overflow-hidden"
-          style={{ left: 225, top: 171, width: 990, height: 356, borderRadius: 30, background: '#000' }}
+          style={{ left: 185, top: 171, width: 990, height: 356, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
@@ -675,7 +675,7 @@ function ProgramSection() {
         <h2
           className="absolute font-display uppercase text-white text-center"
           style={{
-            left: 225,
+            left: 185,
             top: 0,
             width: 990,
             fontSize: 75,
@@ -690,7 +690,7 @@ function ProgramSection() {
             key={p.title}
             className="absolute overflow-hidden"
             style={{
-              left: 225,
+              left: 185,
               top: cardTops[i],
               width: 990,
               height: cardHeights[i],
@@ -835,14 +835,14 @@ function ResultsSection() {
       <div className="relative mx-auto" style={{ width: 1440, height: 473, maxWidth: '100%' }}>
         <h2
           className="absolute font-display uppercase text-white text-center"
-          style={{ left: 225, top: 60, width: 990, fontSize: 75, lineHeight: '75px' }}
+          style={{ left: 185, top: 60, width: 990, fontSize: 75, lineHeight: '75px' }}
         >
           результати після мастермайнду
         </h2>
 
         <div
           className="absolute overflow-hidden"
-          style={{ left: 225, top: 171, width: 990, height: 273, borderRadius: 30, background: '#000' }}
+          style={{ left: 185, top: 171, width: 990, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
@@ -962,7 +962,7 @@ function AndriyStatsMobile() {
 }
 
 function AndriyStats() {
-  const SECTION_LEFT = 225;
+  const SECTION_LEFT = 185;
   const founderBullets = [
     {
       left: 50,
@@ -1321,7 +1321,7 @@ function SecondCtaSection() {
       <div className="relative mx-auto" style={{ width: 1440, height: 690, maxWidth: '100%' }}>
         <h2
           className="absolute font-display uppercase text-white text-center"
-          style={{ left: 225, top: 45, width: 990, fontSize: 75, lineHeight: '75px' }}
+          style={{ left: 185, top: 45, width: 990, fontSize: 75, lineHeight: '75px' }}
         >
           Такий живий формат проводимо раз на кілька місяців
         </h2>
@@ -1335,7 +1335,7 @@ function SecondCtaSection() {
 
         <div
           className="absolute overflow-hidden"
-          style={{ left: 225, top: 248, width: 990, height: 273, borderRadius: 30, background: '#000' }}
+          style={{ left: 185, top: 248, width: 990, height: 273, borderRadius: 30, background: '#000' }}
         >
           <div
             className="absolute pointer-events-none"
