@@ -438,8 +438,8 @@ function ForWhomMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-14">
       <h2
-        className="font-display uppercase text-white text-center mx-auto"
-        style={{ fontSize: 28, lineHeight: '30px', maxWidth: 335 }}
+        className="font-display uppercase text-white"
+        style={{ fontSize: 28, lineHeight: '30px' }}
       >
         цей мастермайнд для тебе якщо:
       </h2>
@@ -564,8 +564,8 @@ function MethodologyMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white px-5 py-10">
       <p
-        className="font-sans text-center mx-auto"
-        style={{ maxWidth: 341, fontSize: 14, lineHeight: '18px', color: '#EBFF00' }}
+        className="font-sans"
+        style={{ fontSize: 14, lineHeight: '18px', color: '#EBFF00' }}
       >
         Я покажу тобі протестовану методологію, яка допомагає будувати ефективні відділи з продажів та команди, яка драйвить продажі
       </p>
@@ -600,8 +600,8 @@ function ProgramMobileSection() {
   return (
     <section id="program-mobile" className="lg:hidden relative bg-black text-white px-5 py-10">
       <h2
-        className="font-display uppercase text-white text-center mx-auto"
-        style={{ fontSize: 28, lineHeight: '30px', maxWidth: 335 }}
+        className="font-display uppercase text-white"
+        style={{ fontSize: 28, lineHeight: '30px' }}
       >
         програма мастермайнду
       </h2>
@@ -659,7 +659,7 @@ function ProgramMobileSection() {
 
 // ─── 4. PROGRAM ───
 function ProgramSection() {
-  const cardHeights = [465, 285, 255];
+  const cardHeights = [465, 285];
   let currentTop = 113;
   const cardTops = cardHeights.map((h) => {
     const t = currentTop;
@@ -790,8 +790,8 @@ function ResultsMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-10">
       <h2
-        className="font-display uppercase text-white text-center mx-auto"
-        style={{ fontSize: 28, lineHeight: '30px', maxWidth: 335 }}
+        className="font-display uppercase text-white"
+        style={{ fontSize: 28, lineHeight: '30px' }}
       >
         результати після мастермайнду
       </h2>
@@ -1120,8 +1120,8 @@ function LogosMobile() {
   return (
     <section className="lg:hidden bg-black text-white px-5 py-10">
       <h2
-        className="font-display uppercase text-white text-center mx-auto"
-        style={{ fontSize: 40, lineHeight: '42px', maxWidth: 335 }}
+        className="font-display uppercase text-white"
+        style={{ fontSize: 40, lineHeight: '42px' }}
       >
         Я витратив на ці знання <span className="text-acid">18 років та 100<span className="font-sans" style={{ fontSize: '0.7em', fontWeight: 500, verticalAlign: '0.12em' }}>+</span> тисяч доларів</span>
       </h2>
@@ -1177,8 +1177,8 @@ function TestimonialMobile() {
   return (
     <section className="lg:hidden bg-black text-white px-5 py-10">
       <h2
-        className="font-display uppercase text-white text-center mx-auto"
-        style={{ fontSize: 28, lineHeight: '30px', maxWidth: 335 }}
+        className="font-display uppercase text-white"
+        style={{ fontSize: 28, lineHeight: '30px' }}
       >
         Відгуки з навчань
       </h2>
@@ -1215,8 +1215,8 @@ function SecondCtaMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-10">
       <h2
-        className="font-display uppercase text-white text-center mx-auto"
-        style={{ fontSize: 30, lineHeight: '32px', maxWidth: 335 }}
+        className="font-display uppercase text-white"
+        style={{ fontSize: 30, lineHeight: '32px' }}
       >
         Такий живий формат проводимо раз на кілька місяців
       </h2>

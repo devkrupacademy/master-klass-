@@ -18,7 +18,8 @@ body {
   background: #000;
   color: #fff;
 }
-html, body { overflow-x: hidden; }
+html { overflow-x: clip; }
+body { overflow-x: hidden; }
 
 /* Entry/reveal animations disabled — CTA button animation preserved below */
 .hero-anim,
@@ -97,14 +98,14 @@ html, body { overflow-x: hidden; }
 
 /* Tablet (768–1023): show desktop layout */
 @media (min-width: 768px) and (max-width: 1023px) {
-  html { overflow-x: hidden; }
+  html { overflow-x: clip; }
   section.lg\:hidden { display: none !important; }
   .hidden.lg\:block { display: block !important; }
   .hidden.lg\:flex { display: flex !important; }
   .hidden.lg\:grid { display: grid !important; }
 }
 
-@media (min-width: 1024px) { html { overflow-x: hidden; } }
+@media (min-width: 1024px) { html { overflow-x: clip; } }
 
 /* ── Registration modal form controls ─────────────────────────── */
 .reg-input,
