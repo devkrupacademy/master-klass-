@@ -199,7 +199,7 @@ function HeroMobile() {
 
         {/* Meta */}
         <div
-          className="hero-anim hero-anim-d6 absolute font-sans text-center"
+          className="hero-anim hero-anim-d6 absolute font-sans"
           style={{ left: 24, top: 555, width: 326, fontSize: 11, lineHeight: '13px', color: 'rgb(217,217,217)' }}
         >
           Участь безкоштовна · Zoom-формат · Кількість обмежена
@@ -1222,8 +1222,8 @@ function SecondCtaMobile() {
       </h2>
 
       <p
-        className="mt-5 font-sans text-center text-white/75 mx-auto"
-        style={{ maxWidth: 300, fontSize: 13, lineHeight: '17px' }}
+        className="mt-5 font-sans text-white/75"
+        style={{ fontSize: 13, lineHeight: '17px' }}
       >
         Цієї весни підприємці оновлюють свої відділи продажів. Приєднуйся!
       </p>
@@ -1281,7 +1281,7 @@ function SecondCtaMobile() {
 
       {/* Meta */}
       <div
-        className="mt-4 font-sans text-center"
+        className="mt-4 font-sans"
         style={{ fontSize: 11, lineHeight: '13px', color: 'rgba(217,217,217,1)' }}
       >
         Участь безкоштовна · Zoom-формат · Кількість обмежена
