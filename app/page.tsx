@@ -580,7 +580,8 @@ function MethodologyMobile() {
 function Methodology() {
   return (
     <section className="hidden lg:block relative bg-black text-white">
-      <div className="relative mx-auto" style={{ width: 1440, height: 144, maxWidth: '100%' }}>
+      <DesktopCanvas h={144}>
+      <div className="relative" style={{ width: 1440, height: 144 }}>
         <p
           className="absolute font-sans text-center left-0 right-0 mx-auto"
           style={{
@@ -594,6 +595,7 @@ function Methodology() {
           Я покажу тобі протестовану методологію, яка допомагає будувати ефективні відділи з продажів та команди, яка драйвить продажі
         </p>
       </div>
+      </DesktopCanvas>
     </section>
   );
 }
@@ -673,7 +675,8 @@ function ProgramSection() {
 
   return (
     <section id="program" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1440, height: totalHeight, maxWidth: '100%' }}>
+      <DesktopCanvas h={totalHeight}>
+      <div className="relative" style={{ width: 1440, height: totalHeight }}>
         {/* Heading */}
         <h2
           className="absolute font-display uppercase text-white left-0 right-0 mx-auto text-center"
@@ -771,6 +774,7 @@ function ProgramSection() {
           </article>
         ))}
       </div>
+      </DesktopCanvas>
     </section>
   );
 }
@@ -834,7 +838,8 @@ function ResultsSection() {
   const rightYs = [35, 106, 176];
   return (
     <section id="results" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1440, height: 473, maxWidth: '100%' }}>
+      <DesktopCanvas h={473}>
+      <div className="relative" style={{ width: 1440, height: 473 }}>
         <h2
           className="absolute font-display uppercase text-white left-0 right-0 mx-auto text-center"
           style={{ top: 60, maxWidth: 990, fontSize: 75, lineHeight: '75px' }}
@@ -876,6 +881,7 @@ function ResultsSection() {
           ))}
         </div>
       </div>
+      </DesktopCanvas>
     </section>
   );
 }
@@ -985,7 +991,8 @@ function AndriyStats() {
 
   return (
     <section className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1440, height: 815, maxWidth: '100%' }}>
+      <DesktopCanvas h={815}>
+      <div className="relative" style={{ width: 1440, height: 815 }}>
         <div className="absolute" style={{ left: SECTION_LEFT, top: 0, width: 990, height: 815 }}>
           <div
             className="absolute pointer-events-none"
@@ -1105,6 +1112,7 @@ function AndriyStats() {
           ))}
         </div>
       </div>
+      </DesktopCanvas>
     </section>
   );
 }
@@ -1320,7 +1328,8 @@ function SecondCtaSection() {
   ];
   return (
     <section id="registration" className="hidden lg:block relative bg-black text-white overflow-hidden">
-      <div className="relative mx-auto" style={{ width: 1440, height: 690, maxWidth: '100%' }}>
+      <DesktopCanvas h={690}>
+      <div className="relative" style={{ width: 1440, height: 690 }}>
         <h2
           className="absolute font-display uppercase text-white left-0 right-0 mx-auto text-center"
           style={{ top: 45, maxWidth: 990, fontSize: 75, lineHeight: '75px' }}
@@ -1395,6 +1404,7 @@ function SecondCtaSection() {
           </span>
         </a>
       </div>
+      </DesktopCanvas>
     </section>
   );
 }
