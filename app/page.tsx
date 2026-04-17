@@ -487,11 +487,10 @@ function ForWhomSection() {
       <div className="relative mx-auto" style={{ width: 1440, height: 555, maxWidth: '100%' }}>
         {/* Heading */}
         <h2
-          className="absolute font-display uppercase text-white"
+          className="absolute font-display uppercase text-white left-0 right-0 mx-auto"
           style={{
-            left: 185,
             top: 60,
-            width: 990,
+            maxWidth: 990,
             textAlign: 'center',
             fontSize: 75,
             lineHeight: '75px',
@@ -578,11 +577,10 @@ function Methodology() {
     <section className="hidden lg:block relative bg-black text-white">
       <div className="relative mx-auto" style={{ width: 1440, height: 144, maxWidth: '100%' }}>
         <p
-          className="absolute font-sans text-center"
+          className="absolute font-sans text-center left-0 right-0 mx-auto"
           style={{
-            left: 419,
             top: 54,
-            width: 602,
+            maxWidth: 602,
             fontSize: 18,
             lineHeight: '23px',
             color: '#EBFF00',
@@ -673,11 +671,10 @@ function ProgramSection() {
       <div className="relative mx-auto" style={{ width: 1440, height: totalHeight, maxWidth: '100%' }}>
         {/* Heading */}
         <h2
-          className="absolute font-display uppercase text-white"
+          className="absolute font-display uppercase text-white left-0 right-0 mx-auto text-center"
           style={{
-            left: 185,
             top: 0,
-            width: 990,
+            maxWidth: 990,
             fontSize: 75,
             lineHeight: '75px',
           }}
@@ -834,8 +831,8 @@ function ResultsSection() {
     <section id="results" className="hidden lg:block relative bg-black text-white overflow-hidden">
       <div className="relative mx-auto" style={{ width: 1440, height: 473, maxWidth: '100%' }}>
         <h2
-          className="absolute font-display uppercase text-white"
-          style={{ left: 185, top: 60, width: 990, fontSize: 75, lineHeight: '75px' }}
+          className="absolute font-display uppercase text-white left-0 right-0 mx-auto text-center"
+          style={{ top: 60, maxWidth: 990, fontSize: 75, lineHeight: '75px' }}
         >
           результати після мастермайнду
         </h2>
@@ -1320,15 +1317,15 @@ function SecondCtaSection() {
     <section id="registration" className="hidden lg:block relative bg-black text-white overflow-hidden">
       <div className="relative mx-auto" style={{ width: 1440, height: 690, maxWidth: '100%' }}>
         <h2
-          className="absolute font-display uppercase text-white"
-          style={{ left: 185, top: 45, width: 990, fontSize: 75, lineHeight: '75px' }}
+          className="absolute font-display uppercase text-white left-0 right-0 mx-auto text-center"
+          style={{ top: 45, maxWidth: 990, fontSize: 75, lineHeight: '75px' }}
         >
           Такий живий формат проводимо раз на кілька місяців
         </h2>
 
         <p
-          className="absolute font-sans text-center"
-          style={{ left: 345, top: 195, width: 750, fontSize: 18, lineHeight: '23px', color: 'rgba(217,217,217,0.75)' }}
+          className="absolute font-sans text-center left-0 right-0 mx-auto"
+          style={{ top: 195, maxWidth: 750, fontSize: 18, lineHeight: '23px', color: 'rgba(217,217,217,0.75)' }}
         >
           Цієї весни підприємці оновлюють свої відділи продажів. Приєднуйся!
         </p>
