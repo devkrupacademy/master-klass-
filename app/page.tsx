@@ -438,8 +438,8 @@ function ForWhomMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-14">
       <h2
-        className="font-display uppercase text-white"
-        style={{ fontSize: 28, lineHeight: '30px' }}
+        className="font-display uppercase text-white text-center"
+        style={{ fontSize: 54, lineHeight: '54px', letterSpacing: '-0.022em' }}
       >
         цей мастермайнд для тебе якщо:
       </h2>
@@ -600,8 +600,8 @@ function ProgramMobileSection() {
   return (
     <section id="program-mobile" className="lg:hidden relative bg-black text-white px-5 py-10">
       <h2
-        className="font-display uppercase text-white"
-        style={{ fontSize: 28, lineHeight: '30px' }}
+        className="font-display uppercase text-white text-center"
+        style={{ fontSize: 54, lineHeight: '54px', letterSpacing: '-0.022em' }}
       >
         програма мастермайнду
       </h2>
@@ -673,7 +673,7 @@ function ProgramSection() {
       <div className="relative mx-auto" style={{ width: 1440, height: totalHeight, maxWidth: '100%' }}>
         {/* Heading */}
         <h2
-          className="absolute font-display uppercase text-white text-center"
+          className="absolute font-display uppercase text-white"
           style={{
             left: 185,
             top: 0,
@@ -790,8 +790,8 @@ function ResultsMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-10">
       <h2
-        className="font-display uppercase text-white"
-        style={{ fontSize: 28, lineHeight: '30px' }}
+        className="font-display uppercase text-white text-center"
+        style={{ fontSize: 54, lineHeight: '54px', letterSpacing: '-0.022em' }}
       >
         результати після мастермайнду
       </h2>
@@ -834,7 +834,7 @@ function ResultsSection() {
     <section id="results" className="hidden lg:block relative bg-black text-white overflow-hidden">
       <div className="relative mx-auto" style={{ width: 1440, height: 473, maxWidth: '100%' }}>
         <h2
-          className="absolute font-display uppercase text-white text-center"
+          className="absolute font-display uppercase text-white"
           style={{ left: 185, top: 60, width: 990, fontSize: 75, lineHeight: '75px' }}
         >
           результати після мастермайнду
@@ -1120,8 +1120,8 @@ function LogosMobile() {
   return (
     <section className="lg:hidden bg-black text-white px-5 py-10">
       <h2
-        className="font-display uppercase text-white"
-        style={{ fontSize: 40, lineHeight: '42px' }}
+        className="font-display uppercase text-white text-center"
+        style={{ fontSize: 54, lineHeight: '54px', letterSpacing: '-0.022em' }}
       >
         Я витратив на ці знання <span className="text-acid">18 років та 100<span className="font-sans" style={{ fontSize: '0.7em', fontWeight: 500, verticalAlign: '0.12em' }}>+</span> тисяч доларів</span>
       </h2>
@@ -1138,8 +1138,8 @@ function LogosSection() {
     <section className="hidden lg:block bg-black text-white">
       <div className="mx-auto max-w-[990px] px-5 py-[72px]">
         <h2
-          className="font-display uppercase text-white text-center mx-auto"
-          style={{ fontSize: 75, lineHeight: '75px', maxWidth: 825 }}
+          className="font-display uppercase text-white"
+          style={{ fontSize: 75, lineHeight: '75px' }}
         >
           Я витратив на ці знання{' '}
           <span className="text-acid">18 років та 100<span className="font-sans" style={{ fontSize: '0.7em', fontWeight: 500, verticalAlign: '0.12em' }}>+</span> тисяч доларів</span>
@@ -1177,8 +1177,8 @@ function TestimonialMobile() {
   return (
     <section className="lg:hidden bg-black text-white px-5 py-10">
       <h2
-        className="font-display uppercase text-white"
-        style={{ fontSize: 28, lineHeight: '30px' }}
+        className="font-display uppercase text-white text-center"
+        style={{ fontSize: 54, lineHeight: '54px', letterSpacing: '-0.022em' }}
       >
         Відгуки з навчань
       </h2>
@@ -1192,7 +1192,7 @@ function TestimonialSection() {
   return (
     <section id="testimonials" className="hidden lg:block bg-black text-white">
       <div className="mx-auto max-w-[990px] px-5 py-[72px]">
-        <h2 className="font-display text-[36px] md:text-h2 uppercase text-center leading-none tracking-[-0.022em] mb-10">
+        <h2 className="font-display text-[36px] md:text-h2 uppercase leading-none tracking-[-0.022em] mb-10">
           Відгуки з навчань
         </h2>
 
@@ -1215,8 +1215,8 @@ function SecondCtaMobile() {
   return (
     <section className="lg:hidden relative bg-black text-white overflow-hidden px-5 py-10">
       <h2
-        className="font-display uppercase text-white"
-        style={{ fontSize: 30, lineHeight: '32px' }}
+        className="font-display uppercase text-white text-center"
+        style={{ fontSize: 54, lineHeight: '54px', letterSpacing: '-0.022em' }}
       >
         Такий живий формат проводимо раз на кілька місяців
       </h2>
@@ -1320,7 +1320,7 @@ function SecondCtaSection() {
     <section id="registration" className="hidden lg:block relative bg-black text-white overflow-hidden">
       <div className="relative mx-auto" style={{ width: 1440, height: 690, maxWidth: '100%' }}>
         <h2
-          className="absolute font-display uppercase text-white text-center"
+          className="absolute font-display uppercase text-white"
           style={{ left: 185, top: 45, width: 990, fontSize: 75, lineHeight: '75px' }}
         >
           Такий живий формат проводимо раз на кілька місяців
