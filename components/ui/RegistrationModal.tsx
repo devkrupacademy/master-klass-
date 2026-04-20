@@ -43,6 +43,12 @@ export function RegistrationModal({ open, onClose }: { open: boolean; onClose: (
     if (!validate()) return;
     setStatus('submitting');
     try {
+      const params = new URLSearchParams(window.location.search);
+      const utm: Record<string, string> = {};
+      for (const key of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']) {
+        const v = params.get(key);
+        if (v) utm[key] = v;
+      }
       await fetch(WEBHOOK, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -52,6 +58,7 @@ export function RegistrationModal({ open, onClose }: { open: boolean; onClose: (
           email: email.trim(),
           source: 'sales-academy-landing',
           ts: new Date().toISOString(),
+          ...utm,
         }),
       });
       // GTM dataLayer event
@@ -102,7 +109,7 @@ export function RegistrationModal({ open, onClose }: { open: boolean; onClose: (
           className="font-display uppercase text-white"
           style={{ fontSize: 32, lineHeight: '34px' }}
         >
-          Реєстрація на <span className="text-acid">майстермайнд</span>
+          Реєстрація на <span className="text-acid">майстер клас</span>
         </h2>
         <p className="mt-3 font-sans text-white/70" style={{ fontSize: 14, lineHeight: '20px' }}>
           Залиш контакти — надішлемо деталі у Telegram.
