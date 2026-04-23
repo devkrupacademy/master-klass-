@@ -173,7 +173,7 @@ export function RegistrationModal({ open, onClose }: { open: boolean; onClose: (
           </button>
 
           <p className="font-sans text-white/50 text-center" style={{ fontSize: 11, lineHeight: '14px' }}>
-            Натискаючи кнопку, ти погоджуєшся з обробкою персональних даних.
+            Натискаючи кнопку, ви погоджуєтесь з обробкою персональних даних.
           </p>
         </form>
       </div>
