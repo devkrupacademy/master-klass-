@@ -29,7 +29,7 @@ export function Header() {
           <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/30 text-white font-sans" style={{ fontSize: 11, lineHeight: '12px' }}>
             <span>2 дні</span>
             <span className="w-[5px] h-[5px] rounded-full bg-acid inline-block" />
-            <span>28–29 квітня</span>
+            <span>29–30 квітня</span>
             <span className="w-[5px] h-[5px] rounded-full bg-acid inline-block" />
             <span>о 19:00 за Києвом</span>
           </div>
@@ -61,7 +61,7 @@ export function Header() {
           >
             <span>2 дні</span>
             <span className="w-[7px] h-[7px] rounded-full bg-acid inline-block" />
-            <span>28–29 квітня</span>
+            <span>29–30 квітня</span>
             <span className="w-[7px] h-[7px] rounded-full bg-acid inline-block" />
             <span>о 19:00 за Києвом</span>
           </div>
